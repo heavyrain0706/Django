@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django</title>
+    <link rel="shortcut icon" href="./img/icons/favicon.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header fixed">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="./index.html" class="header__home">
+                        <img class="header__logo" src="./img/header/logo.png" alt="logo">
+                    </a>
+                    <div class="header__inner-right">
+                        <nav class="header__nav nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#about" class="nav__link">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#gameplay" class="nav__link">
+                                        Gameplay
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#stories" class="nav__link">
+                                        Stories
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#media" class="nav__link">
+                                        Media
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#team" class="nav__link">
+                                        Our team
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__download">
+                            <div class="header__download-main">
+                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                    <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="url(#paint0_linear_1_136)"
+                                        stroke-width="1.8" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_1_136" x1="15.5" y1="29.5" x2="4.75226" y2="23.3825"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#EA862E" />
+                                            <stop offset="1" stop-color="#FFB573" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <span>Download</span>
+                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                        stroke-width="1.8" />
+                                    <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5"
+                                        stroke="url(#paint0_linear_1_140)" stroke-width="1.8" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_1_140" x1="16.5" y1="3.5" x2="27.2477" y2="9.61751"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#EA862E" />
+                                            <stop offset="1" stop-color="#FFB573" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="header__open">
+                                <div class="header__open-inner">
+                                    <ul class="header__download-list download-list">
+                                        <li class="download-list__item">
+                                            <a href="#" class="download-list__link">
+                                                <img src="./img/icons/apple.png" alt="apple">
+                                                <div class="download-list__link-textbox">
+                                                    <p class="download-list__texbox-top">
+                                                        Download
+                                                    </p>
+                                                    <p class="download-list__texbox-bottom">
+                                                        App Store
+                                                    </s>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="download-list__item">
+                                            <a href="#" class="download-list__link">
+                                                <img src="./img/icons/google-play.png" alt="apple">
+                                                <div class="download-list__link-textbox">
+                                                    <p class="download-list__texbox-top">
+                                                        Download
+                                                    </p>
+                                                    <p class="download-list__texbox-bottom">
+                                                        Google Play
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__lang lang">
+                            <div class="lang__current">
+                                EN
+                                <img class="lang__arrow" src="./img/header/lang_arrow.png" alt="arrow">
+                            </div>
+                            <div class="lang__list-wrapper">
+                                <ul class="lang__list">
+                                    <li class="lang__option">
+                                        <a href="#" class="lang__link">RU</a>
+                                    </li>
+                                    <li class="lang__option">
+                                        <a href="#" class="lang__link">UA</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="privacy">
+                <div class="container">
+                    <div class="privacy__inner">
+                        <h2>PRIVACY POLICY</h2>
+                        <h3>PREAMBLE</h3>
+                        <p>
+                            We insist on reading the Privacy Policy, as they contain detailed information on how and for what we will use and collect your personal data and also describe in detail your rights and conditions for using the services we provide.
+                        </p>
+                        <h3>Customer data protection</h3>
+                        <p>
+                            The app will never collect personal data or customer information without the express permission of the user. Personal data and information of customers can only be viewed / interacted with the Application. If we have your consent, the data will be used for troubleshooting, providing a better service for you and for other purposes described in the statement below.
+                        </p>
+                        <h3>Security</h3>
+                        <p>
+                            We value your trust in providing us with your data, therefore we do our best to ensure their security and implement all possible security measures.
+                        </p>
+                        <h3>CATEGORIES OF PERSONAL DATA THAT WE COLLECT</h3>
+                        <p>
+                            Purpose of data processing:
+                        </p>
+                        <p>To grant permission to use the Services</p>
+                        <div class="table-wrapper">
+                            <table>
+                                <colgroup></colgroup>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <h6>Purpose of data processing:</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Data type:</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Data processing reason:&nbsp;</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Storage duration:</h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6>To grant permission to use the Services</h6>
+                                        </td>
+                                        <td>
+                                            <h6>- Google Account ® registration data;</h6>
+                        
+                                            <h6>- Data collected automatically;</h6>
+                        
+                                            <h6>- Devices (Google Android ® Mobile Device) ID;</h6>
+                        
+                                            <h6>- Devices (Google Android ® Mobile Device) model.</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Effectuation of the Agreement (Terms of Use)</h6>
+                                        </td>
+                                        <td>
+                                            <h6>&nbsp;</h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6>Security</h6>
+                                        </td>
+                                        <td>
+                                            <h6>- Minor data;</h6>
+                        
+                                            <h6>- Google Account ® details.</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Legitimate behoof</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Up to 3 (three) years</h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6>Support</h6>
+                                        </td>
+                                        <td>
+                                            <h6>- Google Account ® data</h6>
+                        
+                                            <h6>- Data collected via Application.</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Effectuation of the Agreement (Terms of Use)</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Until Application is uninstalled</h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6>Messages to the Services</h6>
+                                        </td>
+                                        <td>
+                                            <h6>- Google Account ® data;</h6>
+                        
+                                            <h6>- User’s contact information (e.g. name, e-mail address, telephone number).</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Effectuation of the Agreement (Terms of Use) or your Consensus</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Up to 3 (three) years</h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6>Marketing offers</h6>
+                                        </td>
+                                        <td>
+                                            <h6>- Account &nbsp;registered info;</h6>
+                        
+                                            <h6>- Data collected automatically;</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Legitimate behoof and your Consensus*</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Until Application is uninstalled</h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6>&nbsp;</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Location data</h6>
+                                        </td>
+                                        <td>
+                                            <h6>&nbsp;</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Until Application is uninstalled</h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6>Compliance with legal obligations</h6>
+                                        </td>
+                                        <td>
+                                            <h6>- Account &nbsp;registered info;</h6>
+                        
+                                            <h6>- Data collected automatically;</h6>
+                        
+                                            <h6>- Data collected via Application;</h6>
+                        
+                                            <h6>- Payment data.</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Compliance with legal obligations</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Up to 3 (three) years</h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6>Development and analysis</h6>
+                                        </td>
+                                        <td>
+                                            <h6>- - Account &nbsp;registered info;</h6>
+                        
+                                            <h6>- Data collected automatically;</h6>
+                        
+                                            <h6>- Data collected via Application.</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Legitimate behoof</h6>
+                                        </td>
+                                        <td>
+                                            <h6>Until Application is uninstalled.</h6>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p>
+                            * When you open the app for the first time, you will be asked for permissions:
+                        </p>
+                        <h3>TO WHOM WE CAN DISCLOSE PERSONAL DATA</h3>
+                        <p>We may provide necessary personal information to users, our staff, or companies associated with us for our legitimate business purposes. If we need to provide limited user data to companies that provide us with services, we are obliged to require them to comply with our Privacy Policy contained in this document.</p>
+                        <p>We may disclose user information in the event of a merger, or in the event of a partial buyout of our assets by another company, as well as to provide information to government authorities if required by law or if such actions are necessary to comply with all and any applicable laws or to combat fraud and illegal activities.</p>
+                        <h3>WHAT ARE THE LEGAL BASIS FOR DATA PROCESSING?</h3>
+                        <p>Legal basis for data processing</p>
+                        <p>In this section, we define the legal basis on which we rely when processing personal information.</p>
+                        <p>Most of the requests for information processing are related to a legitimate interest. In this case, the data is analyzed, for example, to further develop or correct the Application, to manage and provide you with the proper Services, to be able to evaluate and improve our business, or to facilitate a corporate transaction (including the sale of all or part of our assets or a corporate merger).</p>
+                        <p>There are cases when we process personal information to protect our services and products from fraud, illegal activity, claims and others.</p>
+                        <p>Also, the collection and analysis of user data may be necessary to comply with legal requirements.</p>
+                        <h3>HOW DO WE HANDLE YOUR PERSONAL DATA?</h3>
+                        <p>
+                            We may use third-party services, sites or software to improve and analyze the operation of our Application and improve the quality of our service to you or detect errors, such as:
+                        </p>
+                        <ul>
+                            <li>• <a href="https://policies.google.com/privacy?hl=en" target="_blank">AdMob</a> platform (by Google Inc). </li>
+                            <li>• <a href="https://firebase.google.com/support/privacy">Firebase</a> (by Google Inc).</li>
+                        </ul>
+                        <p>
+                            Read about the privacy policies on the pages of the developers of these programs.
+                        </p>
+                        <p>
+                            The Application may contain links to other sites or advertisements. When you go to third-party sites, you must take into account that they are not regulated by us and we are not responsible for their content and content. Therefore, we recommend that you first read the Privacy Policy of third-party websites.
+                        </p>
+                        <h3>PERSONAL DATA MANAGING</h3>
+                        <p>1. You have the right to unsubscribe from advertising / marketing emails or messages.</p>
+                        <p>To unsubscribe from advertising mailin, follow the instructions written below in such messages or using the parameters specified in the application settings.</p>
+                        <p>2. You have an unrestricted right to access or edit your personal data.</p>
+                        <p>3. Other rights</p>
+                        <p>You also have the full right to completely or partially delete your personal data, as well as to object to the use of personal data, as well as to partially restrict them. You always have the right to withdraw your consent.</p>
+                        <p>If you have questions about data protection or any requests to resolve problems with your personal data, we recommend that you first contact us through the Application. We will answer your questions, but it may take some time.</p>
+                        <h3>MINORS POLICY</h3>
+                        <p>The services we provide are not directed to individuals under the age of 16, therefore we do not collect data from such individuals. Also, we do not give our consent to the use of the Application by children.</p>
+                        <h3>DATA SECURITY</h3>
+                        <p>We use all possible administrative and technical security measures to ensure the inviolability and security of personal information. However, despite this, we cannot guarantee the exclusive complete security of the information that you disclose in the Services or in them, and you do this solely at your own risk.</p>
+                        <p>When creating an account in the Apps, you need to come up with a password, which you can change after the first login to the account using the actual password. In this case, only you are responsible for maintaining the confidentiality of your password and are solely responsible for all actions that occur with your account. You also agree to notify us if you suspect unauthorized use of your account or password through which you use our Services.</p>
+                        <h3>SUBSCRIPTION AND PAYMENTS</h3>
+                        <p>
+                            Purchases may be presented in our Application or they may appear over time after updating or improving the Application. Therefore, you may receive a notification with an offer to Subscribe or Purchase our Product. You can learn more about the rules and regulations on Purchases, Subscriptions, Cancellations and Refunds by going to the Terms of Use page. 
+                        </p>
+                        <h3>CHANGES IN PRIVACY POLICY</h3>
+                        <p>
+                            For a number of reasons, the Privacy Policy continues to be updated. Therefore, it is recommended to periodically review the page for changes. We will notify you of any changes. The updates themselves come from the moment they are published on this page. 
+                        </p>
+                        <h3>CONTACTS AND SUPPORT</h3>
+                        <p>
+                            You can write to us at any suitable time to our support e-mail if you have questions regarding the current Policy or its upcoming updates. Our support team will answer you within a reasonable time on all your questions regarding the Privacy Policy, our Product and Services.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer__top-links top-links">
+                            <div class="top-links__left">
+                                <a href="https://www.youtube.com/channel/UCWntKrjdDZIekVckKiWiZPQ"  target="_blank" class="top-links__link">
+                                    youtube
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100087629769022" target="_blank" class="top-links__link">
+                                    facebook
+                                </a>
+                            </div>
+                            <div class="top-links__download">
+                                <div class="top-links__download-main">
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="url(#paint0_linear_1_136)"
+                                            stroke-width="1.8" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_136" x1="15.5" y1="29.5" x2="4.75226" y2="23.3825"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#EA862E" />
+                                                <stop offset="1" stop-color="#FFB573" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    <span>Download</span>
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5"
+                                            stroke="url(#paint0_linear_1_140)" stroke-width="1.8" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_140" x1="16.5" y1="3.5" x2="27.2477" y2="9.61751"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#EA862E" />
+                                                <stop offset="1" stop-color="#FFB573" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="top-links__open">
+                                    <div class="top-links__open-inner">
+                                        <ul class="top-links__download-list download-list">
+                                            <li class="download-list__item">
+                                                <a href="#" class="download-list__link">
+                                                    <img src="./img/icons/apple.png" alt="apple">
+                                                    <div class="download-list__link-textbox">
+                                                        <p class="download-list__texbox-top">
+                                                            Download
+                                                        </p>
+                                                        <p class="download-list__texbox-bottom">
+                                                            App Store
+                                                        </s>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="download-list__item">
+                                                <a href="#" class="download-list__link">
+                                                    <img src="./img/icons/google-play.png" alt="apple">
+                                                    <div class="download-list__link-textbox">
+                                                        <p class="download-list__texbox-top">
+                                                            Download
+                                                        </p>
+                                                        <p class="download-list__texbox-bottom">
+                                                            Google Play
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top-links__right">
+                                <a href="https://www.instagram.com/django_rodan/" target="_blank" class="top-links__link">
+                                    instagram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <p class="footer__copyrights">
+                            Copytight © DJANGO 2022
+                        </p>
+                        <div class="footer__bottom-links bottom-links">
+                            <a href="/privacy_policy.html" class="bottom-links__link">
+                                Privacy Policy
+                            </a>
+                            <a href="mailto:hello@django.quest" class="bottom-links__link">
+                                hello@django.quest
+                            </a>
+                            <a href="/terms.html" class="bottom-links__link">
+                                Terms of use
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

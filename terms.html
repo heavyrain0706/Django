@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django</title>
+    <link rel="shortcut icon" href="./img/icons/favicon.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header fixed">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="./index.html" class="header__home">
+                        <img class="header__logo" src="./img/header/logo.png" alt="logo">
+                    </a>
+                    <div class="header__inner-right">
+                        <nav class="header__nav nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#about" class="nav__link">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#gameplay" class="nav__link">
+                                        Gameplay
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#stories" class="nav__link">
+                                        Stories
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#media" class="nav__link">
+                                        Media
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#team" class="nav__link">
+                                        Our team
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__download">
+                            <div class="header__download-main">
+                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                    <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="url(#paint0_linear_1_136)"
+                                        stroke-width="1.8" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_1_136" x1="15.5" y1="29.5" x2="4.75226" y2="23.3825"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#EA862E" />
+                                            <stop offset="1" stop-color="#FFB573" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <span>Download</span>
+                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                        stroke-width="1.8" />
+                                    <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5"
+                                        stroke="url(#paint0_linear_1_140)" stroke-width="1.8" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_1_140" x1="16.5" y1="3.5" x2="27.2477" y2="9.61751"
+                                            gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#EA862E" />
+                                            <stop offset="1" stop-color="#FFB573" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="header__open">
+                                <div class="header__open-inner">
+                                    <ul class="header__download-list download-list">
+                                        <li class="download-list__item">
+                                            <a href="#" class="download-list__link">
+                                                <img src="./img/icons/apple.png" alt="apple">
+                                                <div class="download-list__link-textbox">
+                                                    <p class="download-list__texbox-top">
+                                                        Download
+                                                    </p>
+                                                    <p class="download-list__texbox-bottom">
+                                                        App Store
+                                                    </s>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="download-list__item">
+                                            <a href="#" class="download-list__link">
+                                                <img src="./img/icons/google-play.png" alt="apple">
+                                                <div class="download-list__link-textbox">
+                                                    <p class="download-list__texbox-top">
+                                                        Download
+                                                    </p>
+                                                    <p class="download-list__texbox-bottom">
+                                                        Google Play
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__lang lang">
+                            <div class="lang__current">
+                                EN
+                                <img class="lang__arrow" src="./img/header/lang_arrow.png" alt="arrow">
+                            </div>
+                            <div class="lang__list-wrapper">
+                                <ul class="lang__list">
+                                    <li class="lang__option">
+                                        <a href="#" class="lang__link">RU</a>
+                                    </li>
+                                    <li class="lang__option">
+                                        <a href="#" class="lang__link">UA</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="terms">
+                <div class="container">
+                    <div class="terms__inner">
+                        <h2>TERMS OF USE</h2>
+                        <h3>PREAMBLE</h3>
+                        <p>
+                            These Terms of Use comprise a legitimately authoritative understanding made between User ("you") and us, The development Company (“company”, "we", or "us"), concerning your admittance to and utilization of our portable application Hereby you give us the assent that by getting to the Application, you have perused, comprehended, and consent to be limited by these Terms of Use.
+                        </p>
+                        <p>
+                            In the event you disagree with all or any of these terms of utilization, then, at that point, you're explicitly denied from utilizing the Application and you are needed to end and suspend the utilization right away.
+                        </p>
+                        <h3>USER’S REPRESENTATIONS</h3>
+                        <p>
+                            By utilizing the Application, the User addresses and warrant that such User: 
+                        </p>
+                        <ul>
+                            <li>• has the lawful limit and consents to agree with these Terms of Use; </li>
+                            <li>• won't involve the Application for any illicit or unapproved reason;</li>
+                            <li>• not a minor in the ward wherein he/she dwells, or on the other hand if a minor, he/she has gotten parental consent to utilize the Application;</li>
+                            <li>• won't get to the Application through mechanized or non-human means, regardless of whether through a bot, script or in any case;</li>
+                            <li>• is not younger than 16;</li>
+                            <li>• utilization of the Application won't abuse any pertinent law or guideline.</li>
+                        </ul>
+                        <h3>USER’S REGISTRATION</h3>
+                        <p>
+                            To use this Application we may require you to download the Application from Google Play ®. To find out more, please, visit and read Google Play Terms of Service. 
+                        </p>
+                        <p>
+                            Once you login to the Application you may be proposed to update your account and purchase a Subscription. Please, find more details about the Subscription in our Payments and Refund Policy.
+                        </p>
+                        <h3>OUR RIGHTS</h3>
+                        <p>
+                            We save the right, however not the responsibility, to:
+                        </p>
+                        <ul>
+                            <li>• take fitting authentic action against anyone who, in our only respect, manhandles these Terms of Utilize, counting without limitation, reporting such customer to law approval specialists;</li>
+                            <li>• screen the Application for encroachment of these Terms of Use;</li>
+                            <li>• in our only propriety and without constrainment, observe, or commitment, to remove from the Application or something different weaken all records and substance that are excessively in measure or are in any capacity difficult to our frameworks;</li>
+                            <li>• something different manage the Application in a manner intended to get our's freedoms and property and to support the right working of the Application.</li>
+                        </ul>
+                        <h3>USER’S PROHIBITED ACTIVITIES</h3>
+                        <p>
+                            At this point, we tell you what you, as a user of the Application, are not allowed to do while using our application. Prohibitions include: 
+                        </p>
+                        <ul>
+                            <li>• Illegal use of the application</li>
+                            <li>• Harassing, threatening, insulting or intimidating other users</li>
+                            <li>• Impersonating someone else and using someone else's account</li>
+                            <li>• Sending spam to other users</li>
+                            <li>• Application reverse engineering</li>
+                            <li>• Development of third-party applications that interact with the application</li>
+                            <li>• Using the app with bots</li>
+                            <li>• Using the app or parts of the app for personal monetary gain</li>
+                        </ul>
+                        <h3>INTELLECTUAL PROPERTY RIGHTS</h3>
+                        <p>We regard the protected innovation privileges of others. It is Our strategy to react to any guarantee that Content posted on the Service encroaches a copyright or other protected innovation encroachment of any individual.</p>
+                        <p>Assuming You are a copyright proprietor, or approved in the interest of one, and You accept that the protected work has been duplicated in a manner that comprises copyright encroachment that is occurring through the App, You should present Your notification recorded as a hard copy to the consideration of our copyright specialist by means of email and remember for Your notification a nitty gritty depiction of the supposed encroachment.</p>
+                        <p>You might be considered responsible for harms (counting expenses and lawyers' charges) for distorting that any Content is encroaching Your copyright.</p>
+                        <p>The Service and its original content (excluding Content provided by You or other users), features and functionality are and will remain the exclusive property of the Company and its licensors.</p>
+                        <p>The Service is protected by copyright, trademark, and other laws of both the Country and foreign countries.</p>
+                        <p>Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of the Company.</p>
+                        <h3>MOBILE APPLICATION LICENSE</h3>
+                        <p>We grant you a non-exclusive, non-transferable, revocable, limited right to install and use the mobile application on a Google Android ® mobile device (hereinafter “wireless electronic devices”) owned or controlled by you, and to access and use the mobile application on such wireless electronic devices strictly in accordance with the applicable mobile app license contained in these Terms of Use.</p>
+                        <p>In any event, you represent and agree that you will not:</p>
+                        <ul>
+                            <li>• turn around build, dismantle, decompile, endeavor to source or unscramble the Application;</li>
+                            <li>• use the Application to form program, item or benefit that specifically or in a roundabout way competes with the Application;</li>
+                            <li>• damage any appropriate laws, rules or regulations in association along with your get to or use of the Application;</li>
+                            <li>• use the Application to send programmed demands to any website;</li>
+                            <li>• make the Application accessible through a arrange or another medium that permits get to or use by different gadgets or Clients at the same time;</li>
+                            <li>• use the Application for any reason that produces wage, or for any other reason for which it was not created or intended;</li>
+                            <li>• make any adjustments, changes, adjustments, enhancements, subordinate works within the Application;</li>
+                            <li>• use any proprietary information, any of our interfaces or our intellectual property when designing, manufacturing, licensing, distributing or developing any applications, accessories or devices for use with the application. We respect the intellectual property rights of others. If you believe that any material available in or through the Application infringes any copyright that you own or control, please report it immediately to EMAIL.</li>
+                        </ul>
+                        <h3>ADVERTISERS, THIRD-PARTY WEBSITES, AND CONTENT</h3>
+                        <p>The Application may contain links to third-party websites and applications of interest, including advertisements and external services, that are not affiliated with us. Once you have used these links to leave the Application, any information you provide to these third parties is not covered by this Privacy Policy, and we cannot guarantee the safety and privacy of your information. Before visiting and providing any information to any third-party websites, you should inform yourself of the privacy policies and practices (if any) of the third-party responsible for that website, and should take those steps necessary to, in your discretion, protect the privacy of your information. </p>
+                        <p>We are not responsible for the content or privacy and security practices and policies of any third parties, including other sites, services, or applications that may be linked to or from the Application.</p>
+                        <h3>PAYMENTS AND REFUND POLICY</h3>
+                        <p>As a reward for the Purchase provided to the Buyer, the Buyer pays a commission in accordance with the Purchase Offer selected by the User. The Purchaser may do so in the Application, in which case their purchase will be subject to the Google Play Terms of Service available here.</p>
+                        <p>For the avoidance of doubt, Purchasers' use of the Application will continue to be governed by these Terms of Use.</p>
+                        <p>The above list of options may be updated by us from time to time.</p>
+                        <p>As an In-App Buyer, you hereby authorize us to bill you using your preferred payment method that you provide information about in your Google Play® account.</p>
+                        <p>Fees:</p>
+                        <ul>
+                            <li>1. paid in the currency specified in your selected Purchase (otherwise exchange rates may apply);</li>
+                            <li>2. non-refundable, unless otherwise expressly provided for in this agreement;</li>
+                            <li>3. Includes all applicable sales taxes.</li>
+                        </ul>
+                        <p>We reserve the right to change the fee in accordance with these Terms of Use. We will notify you in advance of any change in the payment amount, including the effective date of such change. Your continued use of the Application after the fee change becomes effective constitutes your agreement to pay the new fee, and any additional fees due to us as a result of such change will be immediately credited to your bank account (which you hereby authorize us to do). ). ). do).</p>
+                        <p>We reserve the right to correct any mistakes or errors he makes regarding fees, even if he has already requested or received payment.</p>
+                        <p>If we receive a "properly prepared return request" from you after the 48 hours or more specified in the Google ® Return Policy, we will set a time limit, which will not exceed 60 calendar days, for a decision. Returns.</p>
+                        <p>If within 10 calendar days after the purchase the User does not send us a "correct return request" or sends, but after 10 days we consider that the User is an active subscriber.</p>
+                        <p>A "correctly completed return request" must include:</p>
+                        <ul>
+                            <li>• Country of residence of the User.</li>
+                            <li>• Date of purchase (Google receipt required).</li>
+                            <li>• Indicates the application from which the purchase was made.</li>
+                            <li>• A description of the reason for unsubscribing.</li>
+                            <li>• Transaction ID (should be on the receipt).</li>
+                            <li>• A "well-formed return request" must be sent to hello@django.quest.</li>
+                        </ul>
+                        <h3>TERM AND TERMINATION</h3>
+                        <p>
+                            These Terms of Use should remain in full compel and effect while you utilize the Application. Without obliging some other plan of the specific Terms of Use, we save the legitimate to, in its only respect and without observing or hazard, deny get to and use of the Application to any person under any condition or for not a single explanation, counting without restriction for break of any portrayal, assurance, or vow held inside the singular Terms of Use or any fitting law or control. We might end your utilization of the Application, without alert, in our only alert.
+                        </p>
+                        <h3>MODIFICATIONS AND INTERRUPTIONS</h3>
+                        <p>​​We save the proper to alter, adjust or expel the substance of the Application at any time or for any reason at our sole caution without taking note. In any case, we have no commitment to upgrade any data on our Application. We too save the correct to adjust or suspend all or part of the Application without taking note at any time. We'll not be obligated to you or any third party for any adjustment cost alter, suspension, or discontinuance of the Application. The application is given on an as-is and as-available premise. By using this Application you concur that your use of the application administrations will be at your sole chance. On no occasion will we or our, representatives, or operators be obligated to you or any third party for any coordinate, circuitous, considerable, excellent, coincidental, uncommon, or correctional harms, counting misplaced benefit, misplaced income, the misfortune of information, or other harms emerging from your use of the application, indeed in case we have been exhorted of the plausibility of such damages. </p>
+                        <p>We cannot ensure the Application will be accessible at all times. We may encounter equipment, program, or other issues or have to perform upkeep related to the Application, resulting in interferences, delays, or blunders. We save the correct to alter, reexamine, overhaul, suspend, suspend, or something else alter the Application at any time or for any reason without taking note to you. You concur that we have no risk at all for any misfortune, harm, or bother caused by your failure to get to or use the Application amid any downtime or discontinuance of the Application. Nothing in these Terms of Use will be understood to commit us to preserve and back the Application or to supply any adjustments, upgrades, or discharges in association therewith.</p>
+                        <h3>PRIVACY POLICY</h3>
+                        <p>
+                            We care about data privacy and security. Please review our <a href="/privacy_policy.html" target="_blank">Privacy Policy</a>. By using the Application, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use.
+                        </p>
+                        <h3>GOVERNING LAW AND DISPUTE RESOLUTION</h3>
+                        <p>
+                            These Terms of Use and your use of the Application are governed by and construed in accordance with the laws of the United Kingdom of Great Britain and Northern Ireland. Any dispute arising out of or in connection with these Terms of Use, including any question regarding its existence, validity or termination, shall be referred to and finally resolved by arbitration under the LCIA Rules, which are deemed to be incorporated by reference into this clause. The arbitral tribunal shall consist of one arbitrator. The venue of Arbitration shall be London, United Kingdom. The language of the arbitration shall be English. The law governing this contract is the substantive law of England and Wales.
+                        </p>
+                        <h3>MINORS</h3>
+                        <p>
+                            Assuming that the User is a minor (under sixteen (16) years old) or an individual with restricted not set in stone by law, the assent of the client's folks or legitimate agent is needed to buy any Products. If a minor buys a Product without the assent of his/her legitimate delegate, the minor and/or lawful agent might drop the buy. In any case, assuming a minor makes a buy inside a dispensable property approved by his/her lawful delegate, or on the other hand if the minor uses duplicity, like utilizing a grown-up's installment data without assent, to cause the Company to trust that he/she is anything but a minor, such buy can't be dropped, regardless of whether it was managed without the assent of the lawful agent.
+                        </p>
+                        <h3>UPDATES</h3>
+                        <p>
+                            The Company maintains whatever authority is needed to change these Terms occasionally to the degree that such change doesn't abuse material laws and guidelines. If the Company changes the substance of these Terms, the Company will distribute new forms of these records in its application and on its site. Your proceeded with utilization of the Application after the viable date of changes to these Terms will comprise your acknowledgment of the changes. Notwithstanding, changes that benefit Users, or changes for legitimate reasons, may produce results right away.
+                        </p>
+                        <h3>COMMUNICATIONS AND SIGNATURES</h3>
+                        <p>
+                            By using the Application, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications, and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Application, satisfy any legal requirement that such communication is in writing. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE APPLICATION. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.
+                        </p>
+                        <h3>CONTACT US</h3>
+                        <p>
+                            In order to resolve a complaint regarding the Application or to receive further information regarding the use of the Application, please contact us at <a href="mailto:hello@django.quest">hello@django.quest</a> by sending the email.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer__top-links top-links">
+                            <div class="top-links__left">
+                                <a href="https://www.youtube.com/channel/UCWntKrjdDZIekVckKiWiZPQ"  target="_blank" class="top-links__link">
+                                    youtube
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100087629769022" target="_blank" class="top-links__link">
+                                    facebook
+                                </a>
+                            </div>
+                            <div class="top-links__download">
+                                <div class="top-links__download-main">
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="url(#paint0_linear_1_136)"
+                                            stroke-width="1.8" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_136" x1="15.5" y1="29.5" x2="4.75226" y2="23.3825"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#EA862E" />
+                                                <stop offset="1" stop-color="#FFB573" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    <span>Download</span>
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5"
+                                            stroke="url(#paint0_linear_1_140)" stroke-width="1.8" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_140" x1="16.5" y1="3.5" x2="27.2477" y2="9.61751"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#EA862E" />
+                                                <stop offset="1" stop-color="#FFB573" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="top-links__open">
+                                    <div class="top-links__open-inner">
+                                        <ul class="top-links__download-list download-list">
+                                            <li class="download-list__item">
+                                                <a href="#" class="download-list__link">
+                                                    <img src="./img/icons/apple.png" alt="apple">
+                                                    <div class="download-list__link-textbox">
+                                                        <p class="download-list__texbox-top">
+                                                            Download
+                                                        </p>
+                                                        <p class="download-list__texbox-bottom">
+                                                            App Store
+                                                        </s>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="download-list__item">
+                                                <a href="#" class="download-list__link">
+                                                    <img src="./img/icons/google-play.png" alt="apple">
+                                                    <div class="download-list__link-textbox">
+                                                        <p class="download-list__texbox-top">
+                                                            Download
+                                                        </p>
+                                                        <p class="download-list__texbox-bottom">
+                                                            Google Play
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top-links__right">
+                                <a href="https://www.instagram.com/django_rodan/" target="_blank" class="top-links__link">
+                                    instagram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <p class="footer__copyrights">
+                            Copytight © DJANGO 2022
+                        </p>
+                        <div class="footer__bottom-links bottom-links">
+                            <a href="/privacy_policy.html" class="bottom-links__link">
+                                Privacy Policy
+                            </a>
+                            <a href="mailto:hello@django.quest" class="bottom-links__link">
+                                hello@django.quest
+                            </a>
+                            <a href="/terms.html" class="bottom-links__link">
+                                Terms of use
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
