@@ -1,0 +1,162 @@
+.django {
+    background: url('../img/django/bg.png') center / cover no-repeat;
+    height: 100vh;
+    position: relative;
+    // &::after {
+    //     content: url('../img/django/django.png');
+    //     position: absolute;
+    //     bottom: -7px;
+    //     left: 50%;
+    //     transform: translate(-50%, 0);
+    // }
+
+    &__hero {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 344px;
+        height: 622px;
+        max-width: none;
+        min-height: unset;
+    }
+
+        .container {
+            height: 100%;
+        }
+
+    // .django__inner
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    // .django__textbox
+
+    &__textbox {
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 80px;
+    }
+
+    // .django__text-top
+
+    &__text-top {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 365px;
+        line-height: 264px;
+        position: relative;
+        color: #fff;
+        top: 75px;
+    }
+
+    // .django__text-bottom
+
+    &__text-bottom {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 137px;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    // .django__links
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .django__link
+
+    &__link {
+      display: flex;
+      align-items: center;
+      padding: 10px ;
+      border: 1px solid #C97730;
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.2);
+      position: relative;
+         &::before {
+            content: '';
+            position: absolute;
+            width: 90%;
+            transition: box-shadow 0.3s;
+            left: 50%;
+            transform: translate(-50%, 0);
+         }
+      
+         &:hover {
+               &::before {
+                  box-shadow: 0px 0px 25px 10px rgba(255,255,255,0.51);
+               }
+         }
+         &:nth-child(1) {
+            margin: 0 20px 0 0;
+         }
+         img {
+            margin: 0 20px 0 0;
+         }
+
+        // .django__link_appstore
+
+        &_appstore {
+        }
+
+        // .django__link_googleplay
+
+        &_googleplay {
+        }
+    }
+
+    // .django__arrow-left
+
+    &__arrow-left {
+        margin: 0 10px 0 0;
+    }
+
+    // .django__link-textbox
+
+    &__link-textbox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .django__texbox-top
+
+    &__texbox-top {
+        font-weight: 300;
+        font-size: 14px;
+        color: #fff;
+        font-family: 'SF Pro Display', sans-serif;
+        margin: 0 0 5px 0;
+    }
+
+    // .django__texbox-bottom
+
+    &__texbox-bottom {
+        font-weight: 500;
+        font-size: 18px;
+        color: #fff;
+        font-family: 'SF Pro Display', sans-serif;
+    }
+
+    // .django__arrow-right
+
+    &__arrow-right {
+        margin: 0 0 0 10px;
+    }
+}
+
+.red {
+    color: #FF3333;
+}

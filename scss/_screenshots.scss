@@ -1,0 +1,199 @@
+.screenshots {
+    padding: 60px 0;
+
+    // .screenshots__header
+
+    &__header {
+        display: flex;
+        align-items: center;
+        font-family: 'Tupo Vyaz';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 100%;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        background: #EA862E;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        margin: 0 0 40px 0;
+            span {
+                margin: 18px 0 0 10px;
+            }
+    }
+
+    // .screenshots__gallery
+
+    &__gallery {
+    }
+
+     // .screenshots__top
+
+     &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        &::before {
+            content: url('../img/slider/smoke.png');
+            position: absolute;
+            top: -50%;
+            right: 20%;
+            @media (max-width: 1250px) {
+                top: -50%;
+                right: 15%;
+            }
+            @media (max-width: 1000px) {
+                top: -55%;
+                right: 10%;
+            }
+        }
+    }
+
+    // .screenshots__textbox
+
+    &__textbox {
+       flex: 0 1 35%;
+       padding: 0 0 0 30px;
+    }
+
+    // .screenshots__title
+
+    &__title {
+        font-family: 'Tupo Vyaz';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0 0 20px 0;
+    }
+
+    // .screenshots__text
+
+    &__text {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.08em;
+        color: #A6A6A6;
+        margin: 0 0 20px 0;
+    }
+
+    // .screenshots__date
+
+    &__date {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #595959;
+    }
+}
+
+
+
+
+//Sliders
+.swiper {
+    cursor: url("../img/global/cursor.png"), auto;
+}
+
+.mySwiperTop {
+    flex: 0 1 65%;
+    margin: 0 0 40px 0;
+}
+
+.swiper-wrapper {
+}
+
+.swiper-slide {
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: url("../img/global/cursor.png"), auto;
+}
+
+.mySwiperThumbs {
+}
+
+
+.swiper-slide-thumb-active {
+    border: 2px solid #EA862E;
+}
+
+.swiper-pagination {
+    text-align: right !important;
+}
+
+.swiper-pagination-fraction {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #595959;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.swiper-horizontal >.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    right: 67px !important;
+    left: unset !important;
+    bottom: 20px !important;
+    width: 87px !important;
+}
+
+.swiper-pagination-current {
+    background: linear-gradient(317.59deg, #EA862E 23.87%, #FFB573 76.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.swiper-navigation {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.swiper-button {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #302F2F;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        &:hover {
+                svg {
+                    path {
+                        stroke: #EA862E;
+                    }
+                }
+            }
+        svg {
+            path {
+                transition: stroke 0.3s;
+            }
+        }
+}
+
+#swiperPrev {
+    margin: 0 70px 0 0;
+}
+
+#swiperNext {
+    margin: 0 0 0 40px;
+}

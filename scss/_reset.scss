@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    cursor: url("../img/global/cursor.png"), auto;
+}
+
+:root{
+}
+
+body{
+    font-family: 'Tupo Vyaz', sans-serif;
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(to bottom, #2B2929 0%, #5C1717 100%);
+    &.lock{
+        overflow: hidden;
+    }
+}
+
+input, textarea, select{
+    border: none;
+}
+
+input:required {
+    box-shadow: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    min-height: 100%;
+    vertical-align: bottom;
+}

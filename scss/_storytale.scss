@@ -1,0 +1,217 @@
+//Storytale
+.storytale {
+    padding: 150px 0 50px 0;
+ 
+    // .storytale__first
+ 
+    &__first {
+       height: 1200px;
+       background: url('../img/storytale/first.png') center / cover no-repeat;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+ 
+    // .storytale__first-text
+ 
+    &__first-text {
+       font-family: 'Playfair Display';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 44px;
+       color: #fff;
+       max-width: 900px;
+       margin: 0 auto;
+       text-align: center;
+       .orange {
+          color: #F19D53;
+       }
+    }
+ 
+ 
+    
+    // .storytale__second
+ 
+    &__second {
+      padding: 100px 0;
+    }
+ 
+    // .storytale__second-inner
+ 
+    &__second-inner {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+    }
+ 
+    // .storytale__second-media
+ 
+    &__second-media {
+       margin-left: -330px;
+       position: relative;
+    }
+ 
+    // .storytale__second-silver 
+ 
+    &__second-silver {
+       position: absolute;
+       bottom: 50px;
+       left: 140px;
+       width: 530px;
+       height: 350px;
+       max-width: none;
+       min-height: 0;
+       z-index: 20;
+    }
+ 
+     // .storytale__second-sword
+ 
+     &__second-sword {
+       position: absolute;
+       bottom: 240px;
+       right: 270px;
+       width: 200px;
+       height: 400px;
+       max-width: none;
+       min-height: 0;
+       z-index: 10;
+       transition: transform 0.5s;
+          &.animate {
+            transform: translateY(-50px);
+          }
+    }
+
+    // .storytale__second-smoke
+
+    &__second-smoke {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      max-width: none;
+      min-height: 0;
+      z-index: 15;
+      transition: transform 0.5s;
+          &.animate {
+            transform: translateX(50px);
+          }
+    }
+ 
+    // .storytale__second-textbox
+ 
+    &__second-textbox {
+      
+    }
+ 
+    // .storytale__second-title
+ 
+    &__second-title {
+       font-family: 'Tupo Vyaz';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 44px;
+       line-height: 52px;
+       letter-spacing: 0.14em;
+       text-transform: uppercase;
+       color: #fff;
+       max-width: 300px;
+    }
+ 
+    // .storytale__second-text
+ 
+    &__second-text {
+       font-family: 'Playfair Display';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 22px;
+       line-height: 32px;
+       letter-spacing: 0.08em;
+       color: #A6A6A6;
+       width: 460px;
+    }
+ 
+       // .storytale__third
+ 
+       &__third {
+         padding: 100px 0;
+       }
+    
+       // .storytale__third-inner
+    
+       &__third-inner {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+       }
+    
+       // .storytale__third-textbox
+    
+       &__third-textbox {
+       }
+    
+       // .storytale__third-title
+    
+       &__third-title {
+          font-family: 'Tupo Vyaz';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 44px;
+          line-height: 52px;
+          letter-spacing: 0.14em;
+          text-transform: uppercase;
+          color: #fff;
+          max-width: 300px;
+       }
+    
+       // .storytale__third-text
+    
+       &__third-text {
+          font-family: 'Playfair Display';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 32px;
+          letter-spacing: 0.08em;
+          color: #A6A6A6;
+          width: 460px;
+       }
+    
+       // .storytale__third-media
+    
+       &__third-media {
+          margin-right: -330px;
+          position: relative;
+       }
+ 
+       // .storytale__third-tusk 
+ 
+       &__third-tusk  {
+          position: absolute;
+          top: -30px;
+          left: 0;
+          width: 432px;
+          height: 580px;
+          max-width: none;
+          min-height: 0;
+          z-index: 15;
+          transition: transform 0.5s;
+          &.animate {
+            transform: translateX(-20px);
+          }
+       }
+
+       // .storytale__third-smoke
+
+       &__third-smoke {
+         position: absolute;
+         top: -65px;
+         left: -95px;
+         max-width: none;
+         min-height: 0;
+         z-index: 20;
+         transition: transform 0.5s;
+          &.animate {
+            transform: translateX(50px);
+          }
+       }
+  
+ }

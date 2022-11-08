@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django</title>
+    <link rel="shortcut icon" href="./img/icons/favicon.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="mainblock">
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <a href="./index.html" class="header__home">
+                            <img class="header__logo" src="./img/header/logo.png" alt="logo">
+                        </a>
+                        <div class="header__inner-right">
+                            <nav class="header__nav nav">
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a href="#about" class="nav__link">
+                                            About
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#gameplay" class="nav__link">
+                                            Gameplay
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#stories" class="nav__link">
+                                            Stories
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#media" class="nav__link">
+                                            Media
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#team" class="nav__link">
+                                            Our team
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="header__download">
+                                <div class="header__download-main">
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="url(#paint0_linear_1_136)"
+                                            stroke-width="1.8" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_136" x1="15.5" y1="29.5" x2="4.75226" y2="23.3825"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#EA862E" />
+                                                <stop offset="1" stop-color="#FFB573" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    <span>Download</span>
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5"
+                                            stroke="url(#paint0_linear_1_140)" stroke-width="1.8" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_140" x1="16.5" y1="3.5" x2="27.2477" y2="9.61751"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#EA862E" />
+                                                <stop offset="1" stop-color="#FFB573" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="header__open">
+                                    <div class="header__open-inner">
+                                        <ul class="header__download-list download-list">
+                                            <li class="download-list__item">
+                                                <a href="#" class="download-list__link">
+                                                    <img src="./img/icons/apple.png" alt="apple">
+                                                    <div class="download-list__link-textbox">
+                                                        <p class="download-list__texbox-top">
+                                                            Download
+                                                        </p>
+                                                        <p class="download-list__texbox-bottom">
+                                                            App Store
+                                                        </s>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="download-list__item">
+                                                <a href="#" class="download-list__link">
+                                                    <img src="./img/icons/google-play.png" alt="apple">
+                                                    <div class="download-list__link-textbox">
+                                                        <p class="download-list__texbox-top">
+                                                            Download
+                                                        </p>
+                                                        <p class="download-list__texbox-bottom">
+                                                            Google Play
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header__lang lang">
+                                <div class="lang__current">
+                                    EN
+                                    <img class="lang__arrow" src="./img/header/lang_arrow.png" alt="arrow">
+                                </div>
+                                <div class="lang__list-wrapper">
+                                    <ul class="lang__list">
+                                        <li class="lang__option">
+                                            <a href="/ru/index.html" class="lang__link">RU</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="mainblock__inner">
+                <div class="container">
+                    <div class="mainblock__main">
+                        <div class="mainblock__media">
+                            <img src="./img/mainblock/django.png" alt="img">
+                        </div>
+                        <div class="mainblock__content">
+                            <div class="mainblock__textbox">
+                                <p class="mainblock__text-top">
+                                    The adventure story of Django the hunter
+                                </p>
+                                <p class="mainblock__text-mid">
+                                    Djan<span class="red">g</span>o
+                                </p>
+                                <p class="mainblock__text-bottom">
+                                    in search of truth
+                                </p>
+                            </div>
+                            <div class="mainblock__links">
+                                <a href="#" class="mainblock__link mainblock__link_appstore">
+                                    <svg class="mainblock__arrow-left" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                    </svg>
+                                    <img src="./img/icons/apple.png" alt="apple">
+                                    <div class="mainblock__link-textbox">
+                                        <span class="mainblock__texbox-top">
+                                            Download
+                                        </span>
+                                        <span class="mainblock__texbox-bottom">
+                                            App Store
+                                        </span>
+                                    </div>
+                                    <svg class="mainblock__arrow-right" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="mainblock__link mainblock__link_googleplay">
+                                    <svg class="mainblock__arrow-left" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                    </svg>
+                                    <img src="./img/icons/google-play.png" alt="apple">
+                                    <div class="mainblock__link-textbox">
+                                        <span class="mainblock__texbox-top">
+                                            Download
+                                        </span>
+                                        <span class="mainblock__texbox-bottom">
+                                            Google play
+                                        </span>
+                                    </div>
+                                    <svg class="mainblock__arrow-right" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mainblock__news">
+                        <div class="mainblock__news-item news-item">
+                            <div class="news-item__media">
+                                <iframe width="267" height="110" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="news-item__textbox">
+                                <h3 class="news-item__title">
+                                    Django - an adventure story (promo video)
+                                </h3>
+                                <div class="news-item__content">
+                                    <span class="news-item__date">
+                                        1 JUNE 2023
+                                    </span>
+                                    <span class="news-item__new">
+                                        new
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainblock__news-item news-item">
+                            <div class="news-item__media">
+                                <iframe width="267" height="110" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="news-item__textbox">
+                                <h3 class="news-item__title">
+                                    Django - an adventure story (promo video 2)
+                                </h3>
+                                <div class="news-item__content">
+                                    <span class="news-item__date">
+                                        1 JUNE 2023
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainblock__news-item news-item news-modal-item">
+                            <div class="news-item__media">
+                                <img src="./img/mainblock/promo_img.png" alt="img">
+                            </div>
+                            <div class="news-item__textbox">
+                                <h3 class="news-item__title">
+                                    Feedback from our player
+                                </h3>
+                                <div class="news-item__text">
+                                    <p>
+                                        I liked the game the moment I started playing. You can tell the developers really put their soul into
+                                        it. A mysterious storyline, beautiful music and unbelievably breathtaking graphics – that’s what made me
+                                        play the game till the very end.
+                                    </p>
+                                    <p>
+                                        As a whole, the game is basically a quest in a fantasy setting. The main emphasis is on the storyline
+                                        that promises to be grand and immersive. I’m very happy now that this developer is out there. The game
+                                        truly stands out when compared to all these other template made casual games.
+                                    </p>
+                                    <p>
+                                        The player is introduced to the gameplay with a short, yet vivid cut scene. There you get told about the
+                                        days of old, various notes on locations and comments of the main character. The story is quite gradual
+                                        and it doesn’t let one get bored. No spoilers intended, so I’ll describe the plot briefly. As far as I
+                                        understood, the main character is Django – one of the many hunters of the Rodan family. This family has
+                                        been fighting huge monsters of the Northern lands, they are called bistars. Django heads towards a large
+                                        mountain to kill a bistar, but finds something way more interesting.
+                                    </p>
+                                    <p>
+                                        The game is divided into locations where you can collect various objects. You can then merge them to
+                                        craft different useful things that will help you throughout the game. That said, there are plenty of
+                                        interesting puzzles and tasks that you really need to apply your mind to solve them. I eve n had to use
+                                        hints, thank God that’s an option. There are two types of hints. You get regular text hints that help
+                                        you solve a puzzle. And there is the tracker skill that highlights objects, hidden paths and artifacts.
+                                        Another pleasing fact is the very little amount of ads that really don’t disrupt the gameplay.
+                                    </p>
+                                    <p>
+                                        Personally, I liked the way the developers merged logic puzzles with crafting items. It’s the first time
+                                        I come across something like this in mobile games. The puzzles aren’t that complicated, but they make
+                                        you run around the different locations in search of the answer. On your way you get to enjoy the game
+                                        graphics and animation.
+                                    </p>
+                                    <p>
+                                        The music is of very good quality. I used earphones, and at times I had goosebumps. The sound effects
+                                        add to the mood and liveliness of the game. I enjoyed the graphics. The style is quite soothing. All
+                                        locations have soft animation, which adds life to the game.
+                                    </p>
+                                    <p>
+                                        The thing that impressed me the most is that the developer didn’t stop at just the game. He created his
+                                        own website that contains various stories and descriptions of the world in short articles. It was a
+                                        pleasure reading them. The world promises to keep expanding, revealing more and more information about
+                                        the game universe.
+                                    </p>
+                                    <p>
+                                        All in all, the game left me with a warm sensation of satisfaction. It’s been quite some time since I’ve
+                                        played something like this. I wish the developers good luck in developing their project further. It’ll
+                                        be my pleasure playing the next parts!
+                                    </p>
+                                </div>
+                                <div class="news-item__content">
+                                    <span class="news-item__date">
+                                        1 JUNE 2023
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainblock__news-item news-item news-modal-item">
+                            <div class="news-item__media">
+                                <img src="./img/mainblock/promo_img.png" alt="img">
+                            </div>
+                            <div class="news-item__textbox">
+                                <h3 class="news-item__title">
+                                    Greetings from the developers
+                                </h3>
+                                <div class="news-item__text">
+                                    <p>
+                                        Hi! The Molfar team here. We put a lot of effort into creating DJANGO. We hope you’ve already played it
+                                        and got only the best of emotions!
+                                    </p>
+                                    <p>
+                                        A little about us: We are a young team from Ukraine and this is our first serious project. Each one of
+                                        us poured our souls into it. Since we are fantasy fans, we were inspired by the beautiful scenery of our
+                                        country’s mountains and snowy weather. That’s how we got the idea of creating a game that would immerse
+                                        the player in an amazing fantasy world. But, we decided not to stop there, but instead create a whole
+                                        universe with a unique storyline, plot and characters!
+                                    </p>
+                                    <p>
+                                        The first step to making our dream come true was releasing our first game. It is supposed to immerse the
+                                        player in an endless and mysterious world of Zarimos, and introduce Django, the main character.
+                                    </p>
+                                    <p>
+                                        Despite difficult times, we are working non-stop, so that people can get a bit distracted from what’s
+                                        going on in the world.
+                                    </p>
+                                    <p>
+                                        About the game: DJANGO - an adventure story immerses the player into the wild world of the former
+                                        Northern kingdom of Zarimos that was ruthlessly destroyed by the dangerous monsters of the North -
+                                        bistars. For decades the Rodan family has been fighting the bistars, aiming to liberate the North from
+                                        the monsters that are mindlessly destroying all life in their way. Django Rodan, the grandson of one of
+                                        the best hunters in the family’s history, leaves for another venture. He plans to kill the giant bistar
+                                        that lives on the peak by the mine city of Malrock. However, it’s not that simple. On the mountain peak
+                                        he discovers something totally different. Django’s story begins after he encounters a mystery on the
+                                        peak.
+                                    </p>
+                                </div>
+                                <div class="news-item__content">
+                                    <span class="news-item__date">
+                                        1 JUNE 2023
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="main">
+            <div id="about" class="storytale" style="background: linear-gradient(312.18deg, #2B2929 27.44%, #5C1717 106.98%);">
+                <div class="storytale__first">
+                    <div class="container">
+                        <div class="storytale__first-text">
+                            This adventure game is about one of the family’s hunters — <span class="orange">Jango Rodan</span>, who is sent to Zarimos to fulfill his family duty.
+                        </div>
+                    </div>
+                </div>
+                <div class="storytale__second">
+                    <div class="container">
+                        <div class="storytale__second-inner">
+                            <div class="storytale__second-media">
+                                <img src="./img/storytale/second.png" alt="img">
+                                <img class="storytale__second-silver" src="./img/storytale/silver.png" alt="img">
+                                <img class="storytale__second-sword" src="./img/storytale/sword.png" alt="img">
+                                <img class="storytale__second-smoke" src="./img/storytale/smoke.png" alt="img">
+                            </div>
+                            <div class="storytale__second-textbox">
+                                <h3 class="storytale__second-title">
+                                    Unforgettable adventures
+                                </h3>
+                                <p class="storytale__second-text">
+                                    It’s up to you to unravel the mystery of the Beastars’ origin. Look for hidden objects in the game,
+                                    restore long-lost artifacts, solve riddles - all to get closer to the truth.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="storytale__third">
+                    <div class="container">
+                        <div class="storytale__third-inner">
+                            <div class="storytale__third-textbox">
+                                <h3 class="storytale__third-title">
+                                    hidden objects and puzzles
+                                </h3>
+                                <p class="storytale__third-text">
+                                    Play new point and click adventure game, discover new plot developments and enjoy this fascinating mystical story.
+                                </p>
+                            </div>
+                            <div class="storytale__third-media">
+                                <img src="./img/storytale/third.png" alt="img">
+                                <img class="storytale__third-tusk" src="./img/storytale/tusk.png" alt="img">
+                                <img class="storytale__third-smoke" src="./img/storytale/smoke_cave.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="container">
+                    <div id="gameplay" class="review__videos videos">
+                        <h2 class="videos__title">
+                            <img src="./img/global/title_decore.png" alt="">
+                            <span>video & gameplay</span>
+                        </h2>
+                        <div class="videos__inner">
+                            <div class="videos__big">
+                                <div class="videos__big-media">
+                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="videos__big-texbox">
+                                    <h3 class="videos__big-title">
+                                        Django - an adventure story (promo 
+                                        video) <span class="orange-gradient">1.00</span>
+                                    </h3>
+                                    <p class="videos__big-text">
+                                        It’s up to you to unravel
+                                    </p>
+                                    <div class="videos__big-bottom">
+                                        <span class="videos__big-date">
+                                            30 OCT 2023
+                                        </span>
+                                        <span class="videos__big-label">
+                                            Promo video
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="videos__list videos-list">
+                                <div class="videos-list__item">
+                                    <div class="videos-list__item-media">
+                                        <iframe width="100%" height="120" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="videos-list__item-textbox">
+                                        <h3 class="videos-list__item-title">
+                                            Django - an adventure story (promo video 2)
+                                        </h3>
+                                        <span class="videos-list__item-date">
+                                            30 OCT 2023
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="videos-list__item">
+                                    <div class="videos-list__item-media">
+                                        <iframe width="100%" height="120" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="videos-list__item-textbox">
+                                        <h3 class="videos-list__item-title">
+                                            Django - an adventure story (promo video 2)
+                                        </h3>
+                                        <span class="videos-list__item-date">
+                                            30 OCT 2023
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="videos-list__item">
+                                    <div class="videos-list__item-media">
+                                        <iframe width="100%" height="120" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="videos-list__item-textbox">
+                                        <h3 class="videos-list__item-title">
+                                            Django - an adventure story (promo video 2)
+                                        </h3>
+                                        <span class="videos-list__item-date">
+                                            30 OCT 2023
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="videos-list__item">
+                                    <div class="videos-list__item-media">
+                                        <iframe width="100%" height="120" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="videos-list__item-textbox">
+                                        <h3 class="videos-list__item-title">
+                                            Django - an adventure story (promo video 2)
+                                        </h3>
+                                        <span class="videos-list__item-date">
+                                            30 OCT 2023
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="videos-list__item">
+                                    <div class="videos-list__item-media">
+                                        <iframe width="100%" height="120" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="videos-list__item-textbox">
+                                        <h3 class="videos-list__item-title">
+                                            Django - an adventure story (promo video 2)
+                                        </h3>
+                                        <span class="videos-list__item-date">
+                                            30 OCT 2023
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="videos-list__item">
+                                    <div class="videos-list__item-media">
+                                        <iframe width="100%" height="120" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="videos-list__item-textbox">
+                                        <h3 class="videos-list__item-title">
+                                            Django - an adventure story (promo video 2)
+                                        </h3>
+                                        <span class="videos-list__item-date">
+                                            30 OCT 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="stories" class="review__stories stories">
+                        <h2 class="stories__title">
+                            <img src="./img/global/title_decore.png" alt="img">
+                            <span>django stories</span>
+                        </h2>
+                        <div class="stories__big story">
+                            <div class="stories__big-media">
+                                <img src="./img/review/stories_big.png" alt="img">
+                            </div>
+                            <div class="stories__big-textbox">
+                                <div class="stories__big-left">
+                                    <h3 class="stories__big-title">
+                                        welcome post
+                                    </h3>
+                                    <p class="stories__big-desc">
+                                        Welcome, dear reader. Our Molfar team hopes that you have...
+                                    </p>
+                                </div>
+                                <div class="stories__big-new">
+                                    NEW
+                                </div>
+                                <div class="stories__big-text">
+                                    <p>Welcome, dear reader.</p>
+                                    <p>Our Molfar team hopes that you have already tried playing our game about Django’s adventures and you were left with
+                                    the best of impressions after finishing it.</p>
+                                    <p>Since it’s not so simple to describe the whole history and universe of Django, we decided to release short stories
+                                    that explore the mysterious Zarimos.</p>
+                                    <p>New stories will be posted regularly. So make sure to stay in touch to be the first to read them.</p>
+                                    <p>The reader can expect stories about an entirely new fantasy world, of deadly bistars, courageous hunters of the
+                                    Rodan family and tales of destroyed cities of the North, where once life was in full motion.</p>
+                                    <p>We’re sure that our universe will get your attention and legends of the days gone will inspire you even more to get
+                                    immersed in the gameplay!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stories__list stories-list">
+                            <div class="stories-list__item story">
+                                <div class="stories-list__item-media">
+                                    <img src="./img/review/plug.png" alt="img">
+                                </div>
+                                <div class="stories-list__item-textbox">
+                                    <h3 class="stories-list__item-title">
+                                        ABOUT THE WORLD
+                                    </h3>
+                                    <p class="stories-list__item-desc">
+                                        Zarimos is a wild and harsh place. It poses deadly danger to any who dares set foot on its land.
+                                    </p>
+                                    <div class="stories-list__item-text">
+                                        <p> Zarimos is a wild and harsh place. It poses deadly danger to any who dares set foot on its land. Impenetrable
+                                            forests
+                                            are swarming with lethal predators, ready to ambush the ill-fated victim. The tremendous mountains are
+                                            breathtaking
+                                            and the ruins of ancient towns carry the scent of danger and death.
+                                        </p>
+                                        <p>But the North wasn’t always like this. A long time ago, Zarimos was a mighty kingdom that was full of life.
+                                            Everything changed when war broke out with the Southern kinf=gdom of Aremos. More precisely, one event that went
+                                            down in history as the Onslaught of the Bistars. </p>
+                                        <p>One day of the year-long war, out of nowhere, huge, fierce animal-like creatures attacked Zarimos. They destroyed
+                                            everything in their path. In a few days, the Northern kingdom was defeated. The residents were slaughtered,
+                                            cities turned to ruins. Zarimos was destroyed and after 100 years - forgotten. Only a few brave souls had the
+                                            courage to cross the strait that protected Aremos from the monsters in search of fame and riches. But none ever
+                                            made it back.</p>
+                                        <p>Some time later, the Southern kingdom decided to form an expedition to explore Zarimos. A small party led by
+                                            Bennar Rodan, a respected commander of the royal army. He was the only one of a group that survived an encounter
+                                            with a giant monster that dwarfed the highest peak of Artemos. </p>
+                                        <p>Upon his return, Brennar was ordered to say nothing of what he had seen. But, desiring revenge for his fallen
+                                            men, he returned to the North and created the Rodan family. He accepted anyone with a similar desire to cleanse
+                                            the North of the lethal monsters that were called bistars.</p>
+                                        <p>Many hunters of the family gave up their lives for the greater good, but the goal was still far. The North was
+                                            still teeming with mindless predators, and it seemed there was no end to them. Nobody knew where the bistars
+                                            came from and why there were so many, but old-wives tales had it that they came from a night fog. This was
+                                            mostly believed by the Southerners, tht have never been to the North.</p>
+                                        <p>After decades of work, the family was able to destroy hundreds of bistars and free a small piece of land in the
+                                            land bridge from the monsters. The Southerners built a small town called Belmore. The town did well from trading
+                                            rare artifacts, Northern herbs, unique potions, precious metals and stones.</p>
+                                        <p>Although the Rodan got far, the larger part of Zarimos was still overrun by wild bistars…</p>
+                                    </div>
+                                    <div class="stories-list__item-bottom">
+                                        <span class="stories-list__item-date">
+                                            1 June 2023
+                                        </span>
+                                        <div class="stories-list__item-label">
+                                            Django World Stories
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stories-list__item story">
+                                <div class="stories-list__item-media">
+                                    <img src="./img/review/plug.png" alt="img">
+                                </div>
+                                <div class="stories-list__item-textbox">
+                                    <h3 class="stories-list__item-title">
+                                        THE RODAN FAMILY
+                                    </h3>
+                                    <p class="stories-list__item-desc">
+                                        Some call them the liberators of Zarimos, warriors of the North, the brave. Others regard them as madmen or fanatics.
+                                    </p>
+                                    <div class="stories-list__item-text">
+                                        <p>
+                                            Some call them the liberators of Zarimos, warriors of the North, the brave. Others regard them as madmen or fanatics. THe Rodan family gained a number of names and titles over the years. But, they simply call themselves Hunters.
+                                        </p>
+                                        <p>
+                                            The family’s story begins after Bennar Rodan managed with great difficulty to defeat the behemoth bistar that killed his squad in the past. He left the battlefield with wounds so heavy that he was no longer able to hunt the monsters of the North. That’s when he got the idea of creating his own army to rid Zarimos of the dangerous creatures. The first Rodan spent the rest of his days looking for valiant men of Arimos, training them to hunt and initiate them into the family.
+                                        </p>
+                                        <p>
+                                            Only those that could pass the hunting trial could become part of the Rodan family. To prove his strength and loyalty to the family, one had to face a bistar head-on with only a short bow, a few arrows in the quiver, and a short dagger. The trial was so difficult and harsh that most of the rookies fell at the paws of the ruthless abominations within the first minute of battle. But the few that survived were worthy of their place among the family and could proudly carry the Rodan name.
+                                        </p>
+                                        <p>
+                                            At one of the councils that took place every two years, it was decided to split the family into eight branches. Each one would hunt on its own territory, without interfering with its neighbors. The 8 best hunters were appointed as the elders of each family branch. Based on ancient maps, they divided Zarimos according to the number of branches. It was also decided to  create the scouts. Their purpose was to explore the most dangerous and uninhabited regions of the far North. Only the best of the Rodans could fill the ranks.
+                                        </p>
+                                        <p>
+                                            Naturally, not all the Rodan’s were adventurers from Aremos. Many of the hunters were born in Zarimos. The children of the North, as they were dubbed by the rest, grew up to be the best hunters, as they were trained to hunt bistars from childhood. The best and most capable hunters passed the hunter trial at a very young age, thus standing out from among the others. These were Eros, Decarte and his son, Dyron, Kennar, the brothers, Marin and Marlos, Eilin,Django and many other Rodans. Each had killed dozens of bistars.
+                                        </p>
+                                        <p>
+                                            As the years went by, the southerners noticed the results of the Family’s efforts. The North saw The Liberated Lands - the first piece of land protected from the bistars, and thus safe. A bridge was constructed over the landbridge, next to which a town was built - Belmore. The town was famous for its market square that winded between houses through the whole town. In the market stalls one could find any item.
+                                        </p>
+                                        <p>
+                                            United by a common goal, the Rodan family fights the mighty bistars together, gradually freeing more and more of great Zarimos.
+                                        </p>
+                                    </div>
+                                    <div class="stories-list__item-bottom">
+                                        <span class="stories-list__item-date">
+                                            1 June 2023
+                                        </span>
+                                        <div class="stories-list__item-label">
+                                            Django World Stories
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stories-list__item story">
+                                <div class="stories-list__item-media">
+                                    <img src="./img/review/plug.png" alt="img">
+                                </div>
+                                <div class="stories-list__item-textbox">
+                                    <h3 class="stories-list__item-title">
+                                        BENNAR RODAN
+                                    </h3>
+                                    <p class="stories-list__item-desc">
+                                        Bennar Rodan - an expert of survival, the best archer in the kingdom, the first hunter of the North.
+                                    </p>
+                                    <div class="stories-list__item-text">
+                                        <p>
+                                            Bennar Rodan - an expert of survival, the best archer in the kingdom, the first hunter of the North. He was famous for his rebellious temper long before he got to Zarimos.
+                                        </p>
+                                        <p>
+                                            Born in a faraway village surrounded by thick forest, he spent most of his time hunting animals in the wild as a child. Every day his archery and tracking skills improved, and his abilities impressed even the most experienced hunters in the village. These are the skills that helped him survive after the village was sacked by thugs that killed everyone. For a long time Bennar was forced to survive in the dense forest fighting wild predators and forest thugs.
+                                        </p>
+                                        <p>
+                                            One day, as he was wandering around, he almost killed a soldier of the royal army mistaking him for a thug. The knight marveled at the lad’s skill and presented him to his unit that was nearby. It turned out that the soldiers were sent to clear out Elk’s Forest and get rid of the brutal thugs. Their goal was the same, so Bennar decided to join their ranks. He became a soldier after the task was complete.
+                                        </p>
+                                        <p>
+                                            In service, Bennar’s personality grew with each day. He acquired most of his temper and habits whilst wandering Elk’s Forest. The headstrong hunter often disobeyed orders, acting as he saw fit. Because of this, many fellow soldiers didn’t take a liking to him. After 20 years in service, he ended up being the commander of a small unit. It was made up of soldiers that were similar to Bennar. That’s how the unit got the name Wild Wind.
+                                        </p>
+                                        <p>
+                                            At first, Wild Wind was busy with scouting and hunting thugs. Not much time passed and they began working so quickly and efficiently that they were soon tasked with important and dangerous missions. The unit was so cohesive that they actually seemed like a genuine family.
+                                        </p>
+                                        <p>
+                                            One day they were entrusted with a mission of particular significance. A secret group of northern scouts, surveying the forgotten lands of Zarimos, were trapped in the Stormy Mountains for several days as they fought off the giant beasts of the north, the bistars. Mounting the finest horses of Aremos, Wild Wind charged to the rescue of the cornered scouts, fighting off bistars along the way. On arrival, they were fortunate enough to rescue several desperate spies and successfully escorted them back to the kingdom. 
+                                        </p>
+                                        <p>
+                                            Fascinated by the grandeur of the north and the power of the bistars, Bennar ensured that the Wild Wind unit replaced the perished scouts and was assigned to explore the inhospitable lands of Zarimos. The unit's battle-hardened soldiers quickly adapted to the new conditions and learned how to fight the deadly bistars with prowess. Zarimos had become their second home over the years of endless wilderness, ancient forests, and towering mountains, where they found what they had never dreamed of - true freedom.
+                                        </p>
+                                        <p>
+                                            Deep to the north of Zarimos, they encountered something terrifying. An immensely gigantic bistar stared down at them with its eyes from the highest spire in the southern kingdom. Underestimating their opponent, the unit rushed forward, but was quickly crushed. The only survivor was Bennar, who watched his loyal unit perish at the paws of the mighty monster. That day he vowed to avenge his brothers-in-arms at any cost.
+                                        </p>
+                                        <p>
+                                            After years of torturous preparation, Bennar Rodan was ready for battle. He crafted a devious trap that he used to slay the behemoth. He emerged from the battle critically wounded, and no longer capable of hunting the northern fiends.
+                                        </p>
+                                        <p>
+                                            Incapable of fighting bistars any longer, Bennar decided to revive his unit, creating an entire clan to continue his legacy. He spent the rest of his life recruiting and training volunteers from Aremos. Those who passed his personal trial were initiated into the Rodan family. The family's single purpose was to rid Zarimos of the bistars and establish a new, free state that would submit to only one law - the law of the Northern Wild.
+                                        </p>
+                                    </div>
+                                    <div class="stories-list__item-bottom">
+                                        <span class="stories-list__item-date">
+                                            1 June 2023
+                                        </span>
+                                        <div class="stories-list__item-label">
+                                            Django World Stories
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stories-list-hidden">
+                            <div class="stories-list__item story">
+                                <div class="stories-list__item-media">
+                                    <img src="./img/review/needlemane.png" alt="img">
+                                </div>
+                                <div class="stories-list__item-textbox">
+                                    <h3 class="stories-list__item-title">
+                                        NEEDLEMANE
+                                    </h3>
+                                    <p class="stories-list__item-desc">
+                                        An aggressive predator of the Winter Marshes, the Needlemane bistar gets its name from the large mane which is covered in razor-sharp spikes made of bone.
+                                    </p>
+                                    <div class="stories-list__item-text">
+                                        <p>
+                                            An aggressive predator of the Winter Marshes, the Needlemane bistar gets its name from the large mane which is covered in razor-sharp spikes made of bone.
+                                        </p>
+                                        <p>
+                                            The bistar has no fur,  but its skin is so tough that even the sharpest dagger cannot penetrate it. The only weak spot it has is its mouth that it hides inside its main. It has perfect hearing that it uses to charge at its prey, ramming it with its giant head.
+                                        </p>
+                                        <p>
+                                            This bistar is quite large for its rank. It has tough skin coloured like the swamp waters. You can notice dark green patterns that look like ancient runes. Its mouth is full of sharp teeth with no fangs. Its eyes glow with a bright green flame. Has a short tail, no fur.
+                                        </p>
+                                        <p>
+                                            The Needlemane is quite fast, but it can’t really change direction whilst charging, since it can’t turn its head properly to change its trajectory. It hunts during the day and at night it sleeps in swamps. It’s hard to find at night because it completely blends in with the marshes it lies in.
+                                        </p>
+                                        <p>
+                                            Despite its relatively small size, the bistar poses a serious threat. In open combat no one was able to hurt it, say nothing of actually killing one. It’s impossible to creep up on a Needlemane because it can hear human steps dozens of meters away. 
+                                        </p>
+                                        <p>
+                                            That said, escaping one isn’t an impossible feat. The Needlemane’s thick skin is compensated by a heavy weight. This causes the bistar to tire quickly and stop the pursuit. You should run in zig-zags, changing your direction suddenly and rapidly. 
+                                        </p>
+                                        <p>
+                                            Due to a combination of such characteristics, not one of the Rodan hunters was able to kill this bistar.
+                                        </p>
+                                    </div>
+                                    <div class="stories-list__item-bottom">
+                                        <span class="stories-list__item-date">
+                                            1 June 2023
+                                        </span>
+                                        <div class="stories-list__item-label">
+                                            Django World Stories
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="stories__more">
+                            load more
+                            <img src="./img/review/more.png" alt="">
+                        </button>
+                        <p class="stories__note">
+                            no more news
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-gradient" style="background: linear-gradient(312.18deg, #2B2929 27.44%, #5C1717 106.98%);">
+                <div id="media" class="screenshots">
+                    <div class="container">
+                        <h2 class="screenshots__header">
+                            <img src="./img/global/title_decore.png" alt="img">
+                            <span>gameplay screenshots</span>
+                        </h2>
+                        <div class="screenshots__gallery">
+                            <div class="screenshots__top">
+                                <div class="swiper mySwiperTop">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/1.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/2.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/3.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/4.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/5.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/6.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/7.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/8.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/9.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/10.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/11.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/12.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/13.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/14.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/15.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/16.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/17.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/18.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/19.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="./img/slider/20.png" class="swiper-lazy"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="screenshots__textbox">
+                                    <h3 class="screenshots__title">
+                                        Jango is an adventure puzzle game
+                                    </h3> 
+                                    <p class="screenshots__text">
+                                        In the first version of which you will get acquainted with the game history of the world of Zarimos
+                                    </p>
+                                    <span class="screenshots__date">
+                                        1 June 2023
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <div thumbsSlider="" class="swiper mySwiperThumbs">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/1.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/2.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/3.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/4.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/5.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/6.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/7.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/8.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/9.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/10.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/11.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/12.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/13.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/14.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/15.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/16.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/17.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/18.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/19.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./img/slider/20.png" class="swiper-lazy"/>
+                                    </div>
+                                </div>
+                                <div class="swiper-navigation">
+                                    <button id="swiperPrev" class="swiper-button">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17 4L17 6.94118L22 6.94117L9 16.5L22 26.0588L17 26.0588L17 29" stroke="#828282" stroke-width="1.8"/>
+                                        </svg>                                        
+                                    </button>
+                                    <button id="swiperNext" class="swiper-button">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 28L15 25.0588L10 25.0588L23 15.5L10 5.94118L15 5.94118L15 3" stroke="#828282" stroke-width="1.8"/>
+                                        </svg>                                        
+                                    </button>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>        
+                        </div>
+                    </div>
+                </div>
+                <div id="team" class="team">
+                    <div class="container">
+                        <h2 class="team__header">
+                            <img src="./img/global/title_decore.png" alt="img">
+                            <span>Our team</span>
+                        </h2>
+                        <div class="team__top">
+                            <div class="team__textbox">
+                                <h3 class="team__texbox-title">
+                                    Let's get acquainted, we made this game the way it is
+                                </h3>
+                                <p class="team__textbox-text">
+                                    Hi! We are from the <span class="orange">Ukraine</span>. Even in such difficult times, we try to please our players with a great gaming atmosphere.
+                                </p>
+                            </div>
+                            <div class="team__top-cards">
+                                <div class="team__card team-card team-card_top">
+                                    <div class="team-card__img">
+                                        <img src="./img/team/Alex.png" alt="Alex">
+                                    </div>
+                                    <div class="team-card__info">
+                                        <span class="team-card__name">
+                                            Alex
+                                        </span>
+                                        <span class="team-card__position">
+                                            Author
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="team__card team-card team-card_top">
+                                    <div class="team-card__img">
+                                        <img src="./img/team/Vlad.png" alt="Vlad">
+                                    </div>
+                                    <div class="team-card__info">
+                                        <span class="team-card__name">
+                                            Vlad
+                                        </span>
+                                        <span class="team-card__position">
+                                            Project manager
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__cards">
+                            <div class="team__card team-card">
+                                <div class="team-card__img">
+                                    <img src="./img/team/Maximus.png" alt="Maximus">
+                                </div>
+                                <div class="team-card__info">
+                                    <span class="team-card__name">
+                                        Maximus
+                                    </span>
+                                    <span class="team-card__position">
+                                        designer
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="team__card team-card">
+                                <div class="team-card__img">
+                                    <img src="./img/team/Lisa.png" alt="Maximus">
+                                </div>
+                                <div class="team-card__info">
+                                    <span class="team-card__name">
+                                        Lisa
+                                    </span>
+                                    <span class="team-card__position">
+                                        2d illustrator
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="team__card team-card">
+                                <div class="team-card__img">
+                                    <img src="./img/team/Dmitriy.png" alt="Maximus">
+                                </div>
+                                <div class="team-card__info">
+                                    <span class="team-card__name">
+                                        dmitriy
+                                    </span>
+                                    <span class="team-card__position">
+                                        unity developer
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="django">
+                    <div class="container">
+                        <div class="django__inner">
+                            <div class="django__textbox">
+                                <p class="django__text-top">
+                                    Djan<span class="red">g</span>o
+                                </p>
+                                <p class="django__text-bottom">
+                                    in search of truth
+                                </p>
+                            </div>
+                            <div class="django__links">
+                                <a href="#" class="django__link django__link_appstore">
+                                    <svg class="django__arrow-left" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                    </svg>
+                                    <img src="./img/icons/apple.png" alt="apple">
+                                    <div class="django__link-textbox">
+                                        <span class="django__texbox-top">
+                                            Download
+                                        </span>
+                                        <span class="django__texbox-bottom">
+                                            App Store
+                                        </span>
+                                    </div>
+                                    <svg class="django__arrow-right" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="django__link django__link_googleplay">
+                                    <svg class="django__arrow-left" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                    </svg>
+                                    <img src="./img/icons/google-play.png" alt="apple">
+                                    <div class="django__link-textbox">
+                                        <span class="django__texbox-top">
+                                            Download
+                                        </span>
+                                        <span class="django__texbox-bottom">
+                                            Google play
+                                        </span>
+                                    </div>
+                                    <svg class="django__arrow-right" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="django__hero" src="./img/django/django.png" alt="django">
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer__top-links top-links">
+                            <div class="top-links__left">
+                                <a href="https://www.youtube.com/channel/UCWntKrjdDZIekVckKiWiZPQ"  target="_blank" class="top-links__link">
+                                    youtube
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100087629769022" target="_blank" class="top-links__link">
+                                    facebook
+                                </a>
+                            </div>
+                            <div class="top-links__download">
+                                <div class="top-links__download-main">
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="url(#paint0_linear_1_136)"
+                                            stroke-width="1.8" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_136" x1="15.5" y1="29.5" x2="4.75226" y2="23.3825"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#EA862E" />
+                                                <stop offset="1" stop-color="#FFB573" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    <span>Download</span>
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5"
+                                            stroke="url(#paint0_linear_1_140)" stroke-width="1.8" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_140" x1="16.5" y1="3.5" x2="27.2477" y2="9.61751"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#EA862E" />
+                                                <stop offset="1" stop-color="#FFB573" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="top-links__open">
+                                    <div class="top-links__open-inner">
+                                        <ul class="top-links__download-list download-list">
+                                            <li class="download-list__item">
+                                                <a href="#" class="download-list__link">
+                                                    <img src="./img/icons/apple.png" alt="apple">
+                                                    <div class="download-list__link-textbox">
+                                                        <p class="download-list__texbox-top">
+                                                            Download
+                                                        </p>
+                                                        <p class="download-list__texbox-bottom">
+                                                            App Store
+                                                        </s>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="download-list__item">
+                                                <a href="#" class="download-list__link">
+                                                    <img src="./img/icons/google-play.png" alt="apple">
+                                                    <div class="download-list__link-textbox">
+                                                        <p class="download-list__texbox-top">
+                                                            Download
+                                                        </p>
+                                                        <p class="download-list__texbox-bottom">
+                                                            Google Play
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top-links__right">
+                                <a href="https://www.instagram.com/django_rodan/" target="_blank" class="top-links__link">
+                                    instagram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <p class="footer__copyrights">
+                            Copytight © DJANGO 2022
+                        </p>
+                        <div class="footer__bottom-links bottom-links">
+                            <a href="/privacy_policy.html" class="bottom-links__link">
+                                Privacy Policy
+                            </a>
+                            <a href="mailto:hello@django.quest" class="bottom-links__link">
+                                hello@django.quest
+                            </a>
+                            <a href="/terms.html" class="bottom-links__link">
+                                Terms of use
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="modal-stories">
+            <div class="modal-stories__content">
+                <div class="modal-stories__top">
+                    <div class="modal-stories__date">
+                        1 June 2023
+                    </div>
+                    <div class="modal-stories__info">
+                        Django World Stories
+                    </div>
+                </div>
+                <span class="modal-stories__close">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.146447 0.146447C0.341709 -0.0488155 0.658291 -0.0488155 0.853553 0.146447L10 9.29289L19.1464 0.146447C19.3417 -0.0488155 19.6583 -0.0488155 19.8536 0.146447C20.0488 0.341709 20.0488 0.658291 19.8536 0.853553L10.7071 10L19.8536 19.1464C20.0488 19.3417 20.0488 19.6583 19.8536 19.8536C19.6583 20.0488 19.3417 20.0488 19.1464 19.8536L10 10.7071L0.853553 19.8536C0.658291 20.0488 0.341709 20.0488 0.146447 19.8536C-0.0488155 19.6583 -0.0488155 19.3417 0.146447 19.1464L9.29289 10L0.146447 0.853553C-0.0488155 0.658291 -0.0488155 0.341709 0.146447 0.146447Z"
+                            fill="white" />
+                    </svg>
+                </span>
+                <div class="modal-stories__body">
+                    <div class="modal-stories__media">
+                        <img class="modal-stories__img" src="./img/review/plug.png" alt="img">
+                    </div>
+                    <div class="modal-stories__textbox">
+                        <h3 class="modal-stories__title">
+                            
+                        </h3>
+                        <p class="modal-stories__text">
+                           
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-news">
+            <div class="modal-news__content">
+                <div class="modal-news__top">
+                    <div class="modal-news__date">
+                        1 June 2023
+                    </div>
+                    <div class="modal-news__info">
+                        Secondory information
+                    </div>
+                </div>
+                <span class="modal-news__close">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.146447 0.146447C0.341709 -0.0488155 0.658291 -0.0488155 0.853553 0.146447L10 9.29289L19.1464 0.146447C19.3417 -0.0488155 19.6583 -0.0488155 19.8536 0.146447C20.0488 0.341709 20.0488 0.658291 19.8536 0.853553L10.7071 10L19.8536 19.1464C20.0488 19.3417 20.0488 19.6583 19.8536 19.8536C19.6583 20.0488 19.3417 20.0488 19.1464 19.8536L10 10.7071L0.853553 19.8536C0.658291 20.0488 0.341709 20.0488 0.146447 19.8536C-0.0488155 19.6583 -0.0488155 19.3417 0.146447 19.1464L9.29289 10L0.146447 0.853553C-0.0488155 0.658291 -0.0488155 0.341709 0.146447 0.146447Z"
+                            fill="white" />
+                    </svg>
+                </span>
+                <div class="modal-news__body">
+                    <div class="modal-news__media">
+                        <img class="modal-news__img" src="./img/review/plug.png" alt="img">
+                    </div>
+                    <div class="modal-news__textbox">
+                        <h3 class="modal-news__title">
+                            
+                        </h3>
+                        <p class="modal-news__text">
+                           
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django</title>
+    <link rel="shortcut icon" href="/img/icons/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="mainblock">
+            <header class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <a href="/index.html" class="header__home">
+                            <img class="header__logo" src="/img/header/logo.png" alt="logo">
+                        </a>
+                        <div class="header__inner-right">
+                            <nav class="header__nav nav">
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a href="#about" class="nav__link">
+                                            Про нас
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#gameplay" class="nav__link">
+                                            Геймплей
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#stories" class="nav__link">
+                                            Истории
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#media" class="nav__link">
+                                           Медиа
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#team" class="nav__link">
+                                            Команда
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="header__download">
+                                <div class="header__download-main">
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="url(#paint0_linear_1_136)"
+                                            stroke-width="1.8" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_136" x1="15.5" y1="29.5" x2="4.75226" y2="23.3825"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#EA862E" />
+                                                <stop offset="1" stop-color="#FFB573" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    <span>Скачать</span>
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5"
+                                            stroke="url(#paint0_linear_1_140)" stroke-width="1.8" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_140" x1="16.5" y1="3.5" x2="27.2477" y2="9.61751"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#EA862E" />
+                                                <stop offset="1" stop-color="#FFB573" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="header__open">
+                                    <div class="header__open-inner">
+                                        <ul class="header__download-list download-list">
+                                            <li class="download-list__item">
+                                                <a href="#" class="download-list__link">
+                                                    <img src="/img/icons/apple.png" alt="apple">
+                                                    <div class="download-list__link-textbox">
+                                                        <p class="download-list__texbox-top">
+                                                            Доступно в
+                                                        </p>
+                                                        <p class="download-list__texbox-bottom">
+                                                            App Store
+                                                        </s>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="download-list__item">
+                                                <a href="#" class="download-list__link">
+                                                    <img src="/img/icons/google-play.png" alt="apple">
+                                                    <div class="download-list__link-textbox">
+                                                        <p class="download-list__texbox-top">
+                                                            Доступно в
+                                                        </p>
+                                                        <p class="download-list__texbox-bottom">
+                                                            Google Play
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header__lang lang">
+                                <div class="lang__current">
+                                    RU
+                                    <img class="lang__arrow" src="/img/header/lang_arrow.png" alt="arrow">
+                                </div>
+                                <div class="lang__list-wrapper">
+                                    <ul class="lang__list">
+                                        <li class="lang__option">
+                                            <a href="/index.html" class="lang__link">EN</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="mainblock__inner">
+                <div class="container">
+                    <div class="mainblock__main">
+                        <div class="mainblock__media">
+                            <img src="/img/mainblock/django.png" alt="img">
+                        </div>
+                        <div class="mainblock__content">
+                            <div class="mainblock__textbox">
+                                <p class="mainblock__text-top">
+                                    Приключенческая история охотника
+                                </p>
+                                <p class="mainblock__text-mid">
+                                    Djan<span class="red">g</span>o
+                                </p>
+                                <p class="mainblock__text-bottom">
+                                    В ПОИСКАХ ПРАВДЫ
+                                </p>
+                            </div>
+                            <div class="mainblock__links">
+                                <a href="#" class="mainblock__link mainblock__link_appstore">
+                                    <svg class="mainblock__arrow-left" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                    </svg>
+                                    <img src="/img/icons/apple.png" alt="apple">
+                                    <div class="mainblock__link-textbox">
+                                        <span class="mainblock__texbox-top">
+                                            Доступно в
+                                        </span>
+                                        <span class="mainblock__texbox-bottom">
+                                            App Store
+                                        </span>
+                                    </div>
+                                    <svg class="mainblock__arrow-right" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="mainblock__link mainblock__link_googleplay">
+                                    <svg class="mainblock__arrow-left" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                    </svg>
+                                    <img src="/img/icons/google-play.png" alt="apple">
+                                    <div class="mainblock__link-textbox">
+                                        <span class="mainblock__texbox-top">
+                                            Доступно в
+                                        </span>
+                                        <span class="mainblock__texbox-bottom">
+                                            Google play
+                                        </span>
+                                    </div>
+                                    <svg class="mainblock__arrow-right" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mainblock__news">
+                        <div class="mainblock__news-item news-item">
+                            <div class="news-item__media">
+                                <iframe width="267" height="110" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="news-item__textbox">
+                                <h3 class="news-item__title">
+                                    Django - ИСТОРИЯ ПРИКЛЮЧЕНИЙ (ПРОМО)
+                                </h3>
+                                <div class="news-item__content">
+                                    <span class="news-item__date">
+                                        1 ИЮН 2023
+                                    </span>
+                                    <span class="news-item__new">
+                                        new
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainblock__news-item news-item">
+                            <div class="news-item__media">
+                                <iframe width="267" height="110" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="news-item__textbox">
+                                <h3 class="news-item__title">
+                                    Django - ИСТОРИЯ ПРИКЛЮЧЕНИЙ (ПРОМО 2)
+                                </h3>
+                                <div class="news-item__content">
+                                    <span class="news-item__date">
+                                        1 ИЮН 2023
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainblock__news-item news-item news-modal-item">
+                            <div class="news-item__media">
+                                <img src="/img/mainblock/promo_img.png" alt="img">
+                            </div>
+                            <div class="news-item__textbox">
+                                <h3 class="news-item__title">
+                                    РЕЦЕНЗИЯ ОТ НАШИХ ИГРОКОВ
+                                </h3>
+                                <div class="news-item__text">
+                                    <p>
+                                        Игра полюбилась мне с первой же минуты, видно что разработчики не просто старались, а реально вложили душу в свой проект. Загадочный сюжет, красивая музыка и невероятно атмосферная рисованная графика заставили меня пройти всю игру на одном дыхании.
+                                    </p>
+                                    <p>
+                                        Игра представляет собой квест в фентезийном сеттинге, основной упор сделан на сюжет, который обещает быть очень захватывающим и масштабным. Очень рад, что появился этот разработчик! На фоне шаблонных казуальных игр, эта игра заметно выделяется.
+                                    </p>
+                                    <p>
+                                        Сюжет доносится до игрока с помощью небольшой, но красочной вступительной катсцены, повествующей о событиях былых дней, различных записок на локациях и через комментарии главного героя. История подается порционно и не дает заскучать. Не хочу спойлерить, поэтому опишу сюжет вкратце: насколько я понял, главный герой игры Джанго - один из многих охотников большой семьи Родан, которая уже долгое время ведет борьбу с огромными монстрами северных земель, их называют бистарами. Джанго направляется к высокой скале, чтобы убить бистара, но в итоге обнаруживает там кое что гораздо интереснее…
+                                    </p>
+                                    <p>
+                                        Игра разделена на локации, на некоторых из них располагаются различные предметы, которые можно объединять между собой, создавая полезные штуки, помогающий пройти игру. К тому же присутствуют любопытные головоломки и задачи, для решения которых нужно хорошенько подумать, для некоторых даже пришлось использовать подсказки, благо они есть в игре. Интерфейс игры понятный и минималистичный, никаких лишних кнопок и иконок. Есть два вида подсказок - как обычные, которые в текстовом виде дают намек решение задачи, так и уникальное умение следопыта, подсвечивающее предметы, скрытые пути и артефакты. Порадовало также малое количество рекламы, которая совсем не мешает прохождению игры.
+                                    </p>
+                                    <p>
+                                        Лично мне понравилось как разработчики совместили логические загадки с механикой крафта предметов, ни в одной мобильной игре я такого еще не видел. Загадки сами по себе не особо сложные, но заставляют побегать по локациям в поиске ответа, попутно наслаждаясь графикой игры и анимациями.
+                                    </p>
+                                    <p>
+                                        Музыка очень качественная, играя в наушниках, местами шли мурашки, а звуки предавали игре атмосферы и живости. Графика мне понравилась, стилистика очень приятная, на всех локациях присутствует мягкая анимация, добавляющая жизни в игру.
+                                    </p>
+                                    <p>
+                                        Но больше всего меня впечатлил тот факт, что на одной игре издатель не остановился, создав собственный сайт, на котором размещены различные истории и описание мира в небольших статьях, которые я прочитал с большим удовольствием. Мир обещает расширяться, открывая все больше увлекательной информации о игровой вселенной.
+                                    </p>
+                                    <p>
+                                        В общем игра оставила у меня теплые, приятные впечатления, давно мне не приходилось играть во что то подобное. Желаю разработчикам развивать свой проект и дальше, с удовольствием поиграю в следующие части!
+                                    </p>
+                                </div>
+                                <div class="news-item__content">
+                                    <span class="news-item__date">
+                                        1 ИЮНЯ 2023
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainblock__news-item news-item news-modal-item">
+                            <div class="news-item__media">
+                                <img src="/img/mainblock/promo_img.png" alt="img">
+                            </div>
+                            <div class="news-item__textbox">
+                                <h3 class="news-item__title">
+                                    ПРИВЕТСТВИЕ ОТ РАЗРАБОТЧИКОВ
+                                </h3>
+                                <div class="news-item__text">
+                                    <p>
+                                        Привет, на связи команда Molfar. Мы очень старались, создавая игру DJANGO, надеемся ты уже поиграл в нее и у тебя остались только хорошие впечатления!
+                                    </p>
+                                    <p>
+                                        Пару слов о нас: Мы молодая команда из Украины и это наш первый серьезный проект, в разработку которого каждый из нас вложил всю свою душу. Будучи фанатами фэнтези, мы, вдохновились великолепными горными пейзажами и снежной погодой нашей родной страны и нам пришла в голову идея создать игру, которая погрузила бы игрока в увлекательный мир фэнтези. Но вскоре мы решили не ограничивать себя одной только игрой, а создать целый мир, свою собственную вселенную с уникальной историей, сюжетом и персонажами!
+                                    </p>
+                                    <p>
+                                        И первым шагом к воплощению нашей мечты, стал выпуск нашей первой игры, которая должна вовлечь игрока в бескрайний и таинственный мир Заримоса а также познакомить с главным героем - Джанго. 
+                                        Не смотря на тяжелые времена, мы работаем не покладая рук для того, чтобы хоть немного отвлечь людей от событий в мире.
+                                    </p>
+                                    <p>
+                                        О игре : DJANGO - an adventure story погружает игрока в дикий мир бывшего великого северного королевства Заримос, который в прошлом беспощадно уничтожили опасные чудовища севера - Бистары. Десятилетиями семья Родан вела борьбу с бистарами, стремясь освободить север от монстров, которые без раздумий уничтожали все живое на своем пути. Являясь внуком одного из лучших охотников семьи за все время, Джанго Родан отправляется в очередной поход, намереваясь убить огромного бистара, который по слухам находиться на скале у руин шахтерского города Малрок. Но все не так просто, взобравшись на скалу, он обнаруживает нечто совершенно иное, именно после того, что узнал Джанго на скале, его история начинается.
+                                    </p>
+                                    <p>
+                                        Мы планируем выпустить много игр по нашей вселенной, раскрыв все тайны и секреты Заримоса. Игра DJANGO - an adventure story будет служить началом увлекательной истории Джанго. Помимо игры, мы будем наполнять наш сайт интересными историями, бистарами и известными охотниками отважной семьи Родан. Следите за новостями на сайте и наших страницах в соцсетях!
+                                    </p>
+                                </div>
+                                <div class="news-item__content">
+                                    <span class="news-item__date">
+                                        1 ИЮНЯ 2023
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="main">
+            <div id="about" class="storytale" style="background: linear-gradient(312.18deg, #2B2929 27.44%, #5C1717 106.98%);">
+                <div class="storytale__first">
+                    <div class="container">
+                        <div class="storytale__first-text">
+                            Приключенческая игра про одного из охотников - <span class="orange">Джанго Родана</span>, который отправился в Заримос исполнять семейный долг.
+                        </div>
+                    </div>
+                </div>
+                <div class="storytale__second">
+                    <div class="container">
+                        <div class="storytale__second-inner">
+                            <div class="storytale__second-media">
+                                <img src="/img/storytale/second.png" alt="img">
+                                <img class="storytale__second-silver" src="/img/storytale/silver.png" alt="img">
+                                <img class="storytale__second-sword" src="/img/storytale/sword.png" alt="img">
+                                <img class="storytale__second-smoke" src="/img/storytale/smoke.png" alt="img">
+                            </div>
+                            <div class="storytale__second-textbox">
+                                <h3 class="storytale__second-title">
+                                    неожиданные приключения
+                                </h3>
+                                <p class="storytale__second-text">
+                                    Играйте в приключенческую игру жанра point and click, открывайте новые игровые истории и наслаждайтесь увлекательным мистическим сюжетом.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="storytale__third">
+                    <div class="container">
+                        <div class="storytale__third-inner">
+                            <div class="storytale__third-textbox">
+                                <h3 class="storytale__third-title">
+                                    СКРЫТЫЕ ОБЪЕКТЫ И ГОЛОВОЛОМКИ
+                                </h3>
+                                <p class="storytale__third-text">
+                                    Вам предстоит разгадать тайну происхождения бистаров. Ищите в игре спрятанные предметы, восстановите давно потерянные артефакты, разгадывайте загадки - все для того, чтобы приблизиться к правде.
+                                </p>
+                            </div>
+                            <div class="storytale__third-media">
+                                <img src="/img/storytale/third.png" alt="img">
+                                <img class="storytale__third-tusk" src="/img/storytale/tusk.png" alt="img">
+                                <img class="storytale__third-smoke" src="/img/storytale/smoke_cave.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="container">
+                    <div id="gameplay" class="review__videos videos">
+                        <h2 class="videos__title">
+                            <img src="/img/global/title_decore.png" alt="">
+                            <span>видео и гэймлей</span>
+                        </h2>
+                        <div class="videos__inner">
+                            <div class="videos__big">
+                                <div class="videos__big-media">
+                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="videos__big-texbox">
+                                    <h3 class="videos__big-title">
+                                        Django - ИСТОРИЯ ПРИКЛЮЧЕНИЙ (ПРОМО) <span class="orange-gradient">1.00</span>
+                                    </h3>
+                                    <p class="videos__big-text">
+                                        Надеюсь Вам понравиться
+                                    </p>
+                                    <div class="videos__big-bottom">
+                                        <span class="videos__big-date">
+                                            30 ОКТ 2023
+                                        </span>
+                                        <span class="videos__big-label">
+                                            Промо видео
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="videos__list videos-list">
+                                <div class="videos-list__item">
+                                    <div class="videos-list__item-media">
+                                        <iframe width="100%" height="120" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="videos-list__item-textbox">
+                                        <h3 class="videos-list__item-title">
+                                            Django - ИСТОРИЯ ПРИКЛЮЧЕНИЙ (ПРОМО 2)
+                                        </h3>
+                                        <span class="videos-list__item-date">
+                                            30 ОКТ 2023
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="videos-list__item">
+                                    <div class="videos-list__item-media">
+                                        <iframe width="100%" height="120" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="videos-list__item-textbox">
+                                        <h3 class="videos-list__item-title">
+                                            Django - ИСТОРИЯ ПРИКЛЮЧЕНИЙ (ПРОМО 2)
+                                        </h3>
+                                        <span class="videos-list__item-date">
+                                            30 ОКТ 2023
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="videos-list__item">
+                                    <div class="videos-list__item-media">
+                                        <iframe width="100%" height="120" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="videos-list__item-textbox">
+                                        <h3 class="videos-list__item-title">
+                                            Django - ИСТОРИЯ ПРИКЛЮЧЕНИЙ (ПРОМО 2)
+                                        </h3>
+                                        <span class="videos-list__item-date">
+                                            30 ОКТ 2023
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="videos-list__item">
+                                    <div class="videos-list__item-media">
+                                        <iframe width="100%" height="120" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="videos-list__item-textbox">
+                                        <h3 class="videos-list__item-title">
+                                            Django - ИСТОРИЯ ПРИКЛЮЧЕНИЙ (ПРОМО 2)
+                                        </h3>
+                                        <span class="videos-list__item-date">
+                                            30 ОКТ 2023
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="videos-list__item">
+                                    <div class="videos-list__item-media">
+                                        <iframe width="100%" height="120" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="videos-list__item-textbox">
+                                        <h3 class="videos-list__item-title">
+                                            Django - ИСТОРИЯ ПРИКЛЮЧЕНИЙ (ПРОМО 2)
+                                        </h3>
+                                        <span class="videos-list__item-date">
+                                            30 ОКТ 2023
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="videos-list__item">
+                                    <div class="videos-list__item-media">
+                                        <iframe width="100%" height="120" src="https://www.youtube.com/embed/_43bGXa9a4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="videos-list__item-textbox">
+                                        <h3 class="videos-list__item-title">
+                                            Django - ИСТОРИЯ ПРИКЛЮЧЕНИЙ (ПРОМО 2)
+                                        </h3>
+                                        <span class="videos-list__item-date">
+                                            30 ОКТ 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="stories" class="review__stories stories">
+                        <h2 class="stories__title">
+                            <img src="/img/global/title_decore.png" alt="img">
+                            <span>Истории мира Django</span>
+                        </h2>
+                        <div class="stories__big story">
+                            <div class="stories__big-media">
+                                <img src="/img/review/stories_big.png" alt="img">
+                            </div>
+                            <div class="stories__big-textbox">
+                                <div class="stories__big-left">
+                                    <h3 class="stories__big-title">
+                                        ПРИВЕТСТВЕННЫЙ ПОСТ
+                                    </h3>
+                                    <p class="stories__big-desc">
+                                        Приветствую тебя дорогой читатель. Наша команда Molfar...
+                                    </p>
+                                </div>
+                                <div class="stories__big-new">
+                                    NEW
+                                </div>
+                                <div class="stories__big-text">
+                                    <p>Приветствую тебя дорогой читатель.</p>
+                                    <p>Наша команда Molfar надеется что ты уже поиграл в игру о приключениях Джанго и у тебя остались приятные впечатления после прохождения.</p>
+                                    <p>Так как рассказать всю историю и передать атмосферу вселенной Django не так то просто - нами было принято решение выпускать небольшие рассказы, повествующие о таинственном Заримосе.</p>
+                                    <p>Они будут выпускаться регулярно, поэтому советуем вам следить за нами, чтобы прочесть их первыми.</p>
+                                    <p>Читателя ждут увлекательные повествования о совершенно новом фэнтези мире, о смертоносных бистарах, о отважных охотниках семейства Родан и рассказы о давно уничтоженных городах севера, в которых в прежние времена кипела жизнь.</p>
+                                    <p>Мы уверены что наша вселенная захватит ваше внимание, а легенды о событиях былых дней вдохновят еще глубже погрузиться в атмосферу игры!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stories__list stories-list">
+                            <div class="stories-list__item story">
+                                <div class="stories-list__item-media">
+                                    <img src="/img/review/plug.png" alt="img">
+                                </div>
+                                <div class="stories-list__item-textbox">
+                                    <h3 class="stories-list__item-title">
+                                        ПРО МИР
+                                    </h3>
+                                    <p class="stories-list__item-desc">
+                                        Заримос - дикое и суровое место, представляющее смертельную опасность каждому, кто посмеет ступить на его просторы.
+                                    </p>
+                                    <div class="stories-list__item-text">
+                                        <p> Заримос - дикое и суровое место, представляющее смертельную опасность каждому, кто посмеет ступить на его просторы. В непроходимых лесах северных земель затаились смертоносные хищники, готовые мгновенно броситься на невезучую жертву, высокие горы восхищают своим величием, а от руин древних городов веет опасностью и смертью.
+                                        </p>
+                                        <p>Но север не всегда был таким. В прежние времена Заримос был могущественным королевством, в котором жизнь била ключом. Все изменила война с южным королевством Аремос, а точнее одно ужасное событие, навеки вошедшее в историю под названием Нашествие бистаров.</p>
+                                        <p>В один из дней годовой войны, на Заримос, словно из ниоткуда, напали разъяренные огромные зверообразные существа, которые без разбора крушили все на своем пути. За пару дней северное королевство потерпело сокрушительное поражение, жители были убиты, а города превратились в руины. Заримос был уничтожен и спустя сотню лет совсем позабыт. Лишь немногие смельчаки отваживались переплыть пролив, который защищал Аремос от вторжения монстров, в поисках славы и богатства, но ни один из них так и не вернулся обратно.</p>
+                                        <p>Однажды южное королевство решилось создать экспедицию для исследования Заримоса. Небольшой отряд возглавлял Беннар Родан, уважаемый командир королевской армии. Лишь ему одному удалось выжить после столкновения отряда с огромным звериным чудовищем, высота которого превышала самый высокий шпиль Аремоса.</p>
+                                        <p>Вернувшись обратно, Беннару приказали молчать об увиденном, но желая мести за смерть своего отряда, он вернулся на север и создал семейство Родан, принимая в него всех желающих, которые так же как и он хотели очистить север от смертоносных монстров, которых прозвали бистарами.</p>
+                                        <p>Многие охотники семейства отдали свои жизни за общее дело, но цель была далека, север все еще полнился безумными хищниками, казалось что им нет конца. Откуда взялись бистары и почему их так много, никто не знал, об этом ходили лишь сомнительные легенды, самой популярной из которых была легенда о ночном тумане, в которую верило большинство южан, ни разу не бывавших на севере.</p>
+                                        <p>За десятки лет работы, семейству удалось уничтожить сотни бистаров и освободить от чудовищ небольшой клочок земли у перешейка, на котором южане построили скромный городок под названием Белмор. В городе активно процветала торговля редкими артефактами, северными травами, уникальными снадобьями, ценными металлами и драгоценными камнями.</p>
+                                        <p>И хотя семейство Родан проделало большую работу, огромной частью таинственного Заримоса все еще правили дикие бистары…</p>
+                                    </div>
+                                    <div class="stories-list__item-bottom">
+                                        <span class="stories-list__item-date">
+                                            1 ИЮН 2023
+                                        </span>
+                                        <div class="stories-list__item-label">
+                                            Истории мира Django
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stories-list__item story">
+                                <div class="stories-list__item-media">
+                                    <img src="/img/review/plug.png" alt="img">
+                                </div>
+                                <div class="stories-list__item-textbox">
+                                    <h3 class="stories-list__item-title">
+                                        О СЕМЬЕ РОДАН
+                                    </h3>
+                                    <p class="stories-list__item-desc">
+                                        Кто-то называет их освободителями Заримоса, воинами севера, смельчаками. Кто-то безумцами или фанатиками.
+                                    </p>
+                                    <div class="stories-list__item-text">
+                                        <p>
+                                            Кто-то называет их освободителями Заримоса, воинами севера, смельчаками. Кто-то безумцами или фанатиками. Семейство Родан за многие годы своего существования обрело множество имен и титулов, но сами себя они называют просто - Охотники.
+                                        </p>
+                                        <p>
+                                            История семейства берет начало после того, как Беннар Родан с величайшим трудом одержал победу над бистаром-мастодонтом, загубившем его отряд в прошлом. Выйдя из боя с серьезными ранениями, не позволяющими ему больше вести охоту на монстров севера, ему пришла мысль о создании собственной армии для избавления Заримоса от опасных тварей. Первый из Роданов потратил оставшиеся годы жизни на то, чтобы набирать храбрецов из Аремоса, обучать их охоте и посвящать в ряды семейства.
+                                        </p>
+                                        <p>
+                                            Членами семейства становились лишь те, кому удалось достойно пройти охотничье испытание. Чтобы доказать свою силу и верность семейству, испытуемому приходилось самостоятельно сразить бистара в честном бою, используя лишь короткий лук с парочкой стрел в колчане и небольшой клинок. Испытание было настолько сложным и суровым, что большинство новобранцев гибло от лап свирепых чудовищ в первые минуты смертельной схватки. Но те немногие, кому удавалось одержать победу, заслуживали почтение среди семейства и могли с гордостью носить фамилию Родан.
+                                        </p>
+                                        <p>
+                                            На одном из советов семейства, которые проходили раз в два года, было решено разделить единое семейство на ветви, каждая из которых будет вести охоту строго на своей территории, не мешая при этом своим соседям. Отобрав восьмерку лучших охотников, их назначили старейшинами ветвей семейства. Основываясь на старинных картах, Заримос разделили соответственно с количеством ветвей. Также было принято решение создать разведчиков, целью которых было исследование самых опасных и неизведанных ныне земель далеко на севере, в их число входили лучшие из Роданов.
+                                        </p>
+                                        <p>
+                                            Конечно не все из семейства были искателями приключений из Аремоса, большое количество охотников были рождены в самом Заримосе. Дети севера, как их называли остальные, вырастая, становились лучшими охотниками, так как их тренировали и обучали охоте на бистаров с самого детства. Самые лучшие и сильные охотники проходили охотничье испытание в совсем юном возрасте, выделяясь среди остальных членов семейства. Среди таких были Эрос, Декарт и его сын Дайрон, Кенар, братья Марин и Марлос, Айлин, Джанго и многие другие Роданы, на счету каждого из которых были десятки бистаров.
+                                        </p>
+                                        <p>
+                                            Шли годы, и результаты многолетних трудов семейства стали заметны южанам. На севере появились Освобожденные земли - первый клочок земли, защищенный от бистаров и потому полностью безопасный. Был построен надежный мост через перешеек, возле которого возвели небольшой городок под названием Белмор. Город славился своей рыночной площадью, которая тянулась между домами через весь город и в торговых шатрах которой можно было найти товар на любой вкус.
+                                        </p>
+                                        <p>
+                                            Объединенные общей целью, семейство Родан дружно и слаженно сражается с могучими бистарами, постепенно освобождая все больше земель великого Заримоса.
+                                        </p>
+                                    </div>
+                                    <div class="stories-list__item-bottom">
+                                        <span class="stories-list__item-date">
+                                            1 ИЮН 2023
+                                        </span>
+                                        <div class="stories-list__item-label">
+                                            Истории мира Django
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stories-list__item story">
+                                <div class="stories-list__item-media">
+                                    <img src="/img/review/plug.png" alt="img">
+                                </div>
+                                <div class="stories-list__item-textbox">
+                                    <h3 class="stories-list__item-title">
+                                        БЕННАР РОДАН
+                                    </h3>
+                                    <p class="stories-list__item-desc">
+                                        Мастер выживания, лучший стрелок королевства, первый из охотников севера - Беннар Родан.
+                                    </p>
+                                    <div class="stories-list__item-text">
+                                        <p>
+                                            Мастер выживания, лучший стрелок королевства, первый из охотников севера - Беннар Родан, прославился своим буйным нравом задолго до того, как попал в Заримос.
+                                        </p>
+                                        <p>
+                                            Рожденный в далекой деревне, окруженной необъятными густыми лесами, он будучи совсем мальцом проводил много времени на дикой природе, ведя охоту на лесных животных. С каждым днем его навыки стрельбы и следопытства росли, а его мастерство поражало даже самых опытных охотников деревни. Именно эти способности помогли ему выжить, после того, как на деревню налетели разбойники, убив ее жителей. Долгое время Беннар выживал в дремучих зарослях Оленьего леса, сражаясь не только с дикими хищниками, но и с лесными разбойниками.
+                                        </p>
+                                        <p>
+                                            В один из дней скитаний он едва ли не убил солдата королевской армии, приняв его за разбойника. Рыцарь отметил мастерство парня и представил его своему отряду, который располагался неподалеку. Оказалось, что воинов отправили на зачистку Оленьего леса от свирепых разбойников. Их цели совпадали, так что Беннар решил вступить в их ряды и вместе с ними закончив задание, и сам стал солдатом.
+                                        </p>
+                                        <p>
+                                            На службе, Беннар с каждым днем все сильнее раскрывал свой характер, добрую часть которого обрел в странствиях по Оленьему лесу. Своевольный охотник часто шел против приказов, действуя на свой рассудок, из за этого многие сослуживцы его недолюбливали. Спустя двадцать лет службы, ему удалось стать командиром небольшого отряда, в котором состояли солдаты, похожие своим характером на Беннара, из за этого отряд получил название Дикий Ветер.
+                                        </p>
+                                        <p>
+                                            Первоначально Дикий ветер занимался разведкой и охотой за бандитами, но они действовали настолько быстро и эффективно, что вскоре им стали поручать по настоящему важные и опасные задания, выполняя которые, отряд стал настолько сплоченным, что походил на настоящую семью.
+                                        </p>
+                                        <p>
+                                            Однажды им поручили задание особой важности. Секретная для всего королевства группа северных разведчиков, исследующих забытые земли Заримоса, угодили в западню и уже несколько дней отбивались в Штормовых горах от громадных чудовищ севера - бистаров. Оседлав лучших лошадей Аремоса, Дикий ветер помчался на выручку загнанных в угол разведчиков, попутно сражаясь с бистарами. Прибыв на место, им чудом удалось спасти несколько непутевых шпионов, которых успешно доставили обратно в королевство.
+                                        </p>
+                                        <p>
+                                            Восхитившись величием севера и мощью бистаров, Беннар добился того, что отряд Дикий ветер стал на замену погибшим разведчикам и был назначен исследовать суровые земли Заримоса. Закаленные в боях солдаты отряда быстро приспособились к новым условиям и научились мастерски сражаться со смертоносными бистарами. За годы долгого похода, Заримос стал им вторым домом, в бескрайних просторах, древних лесах и могучих горах они обрели то, о чем и мечтать не могли - истинную свободу.
+                                        </p>
+                                        <p>
+                                            На самом севере Заримоса, они наткнулись на нечто ужасающее. Невероятно огромный бистар смотрел на них своими глазами с высоты самого высокого шпиля южного королевства. Недооценив соперника, отряд вступил в бой, но быстро потерпел поражение. Выжить удалось только Беннару, который застал смерть своего верного отряда от лап могучего чудовища. В тот день он дал клятву любой ценой отомстить гигантской твари.
+                                        </p>
+                                        <p>
+                                            Проведя годы в изнурительных тренировках, Беннар Родан был готов к сражению. Он изготовил хитроумную ловушку, с помощью которой и сразил мастодонта. Из боя он вышел с серьезными ранениями, которые не позволяли ему больше вести охоту на северных чудовищ.
+                                        </p>
+                                        <p>
+                                            Не способный более сражаться с бистарами, Беннар решил возродить свой отряд, создав целый клан, который продолжил бы его дело. Оставшуюся жизнь он набирал и тренировал добровольцев из Аремоса, посвящая прошедших его собственное испытание в ряды семейства Родан. Единой для всего семейства целью было избавить Заримос от бистаров и построить новое, свободное государство, которое подчинялось бы только одним законам - законам дикой природы севера.
+                                        </p>
+                                    </div>
+                                    <div class="stories-list__item-bottom">
+                                        <span class="stories-list__item-date">
+                                            1 ИЮН 2023
+                                        </span>
+                                        <div class="stories-list__item-label">
+                                            Истории мира Django
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stories-list-hidden">
+                            <div class="stories-list__item story">
+                                <div class="stories-list__item-media">
+                                    <img src="/img/review/needlemane.png" alt="img">
+                                </div>
+                                <div class="stories-list__item-textbox">
+                                    <h3 class="stories-list__item-title">
+                                        ИГЛОГРИВ
+                                    </h3>
+                                    <p class="stories-list__item-desc">
+                                        Агрессивный хищник Зимних болот, бистар Иглогрив назван так в честь своей массивной гривы, на которой расположены многочисленные костяные шипы, острые как лезвие бритвы.
+                                    </p>
+                                    <div class="stories-list__item-text">
+                                        <p>
+                                            Агрессивный хищник Зимних болот, бистар Иглогрив назван так в честь своей массивной гривы, на которой расположены многочисленные костяные шипы, острые как лезвие бритвы.
+                                        </p>
+                                        <p>
+                                            Шерстью бистар не обладает, его кожа настолько прочна, что даже самый острый клинок не способен ее пробить. Единственное его уязвимое место - пасть, которую при атаке он прячет вместе со всей своей мордой вглубь гривы и пользуясь отменным слухом, несется на жертву, тараня ее огромной головой.
+                                        </p>
+                                        <p>
+                                            Бистар обладает довольно большими размерами, как для своего ранга, жесткой кожей, цвета болотных вод, на которой темно зеленые рисунки образуют узоры, похожие на стародавние руны. Его пасть усеяна многочисленными острыми зубами без клыков, глаза светятся ярким зеленым огнем. Имеет короткий хвост также без шерсти.
+                                        </p>
+                                        <p>
+                                            Иглогрив обладает достаточно большой скоростью, но низкой маневренностью, разбежавшись, ему будет трудно повернуть в сторону, изменив свою траекторию. На охоту выходит днем, ночью спит в болотных водах, найти его во время сна трудно, так как он полностью сливается с водоемом, в котором лежит.
+                                        </p>
+                                        <p>
+                                            Не смотря на свои относительно малые размеры, бистар представляет серьезную угрозу, в честном бою его не удавалось не то что сразить, но даже хоть сколько серьезно ранить, а застать его врасплох невероятно тяжело, Иглогрив слышит шаг человека за десятки метров.
+                                        </p>
+                                        <p>
+                                            Но при этом, сбежать от него не является особой проблемой. Его прочная кожа компенсируется большим весом, вследствие чего бистар быстро устает и прекращает преследование. Бежать от него следует не по прямой, а зигзагами, быстро и резко меняя направление движения.
+                                        </p>
+                                        <p>
+                                            Из за такого набора качеств, убить бистара до сих пор не удалось ни одному из охотников Родан.
+                                        </p>
+                                    </div>
+                                    <div class="stories-list__item-bottom">
+                                        <span class="stories-list__item-date">
+                                            1 ИЮН 2023
+                                        </span>
+                                        <div class="stories-list__item-label">
+                                            Истории мира Django
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="stories__more">
+                            Загрузить еще
+                            <img src="/img/review/more.png" alt="">
+                        </button>
+                        <p class="stories__note">
+                            больше историй нет
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-gradient" style="background: linear-gradient(312.18deg, #2B2929 27.44%, #5C1717 106.98%);">
+                <div id="media" class="screenshots">
+                    <div class="container">
+                        <h2 class="screenshots__header">
+                            <img src="/img/global/title_decore.png" alt="img">
+                            <span>Игровые скриншоты</span>
+                        </h2>
+                        <div class="screenshots__gallery">
+                            <div class="screenshots__top">
+                                <div class="swiper mySwiperTop">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/1.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/2.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/3.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/4.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/5.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/6.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/7.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/8.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/9.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/10.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/11.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/12.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/13.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/14.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/15.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/16.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/17.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/18.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/19.png" class="swiper-lazy"/>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="/img/slider/20.png" class="swiper-lazy"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="screenshots__textbox">
+                                    <h3 class="screenshots__title">
+                                        Джанго - Приключенческая игра головоломка
+                                    </h3> 
+                                    <p class="screenshots__text">
+                                        В первой версии которой Вы познакомитесь с игровой историей мира Заримос
+                                    </p>
+                                    <span class="screenshots__date">
+                                        1 ИЮН 2023
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <div thumbsSlider="" class="swiper mySwiperThumbs">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/1.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/2.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/3.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/4.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/5.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/6.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/7.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/8.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/9.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/10.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/11.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/12.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/13.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/14.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/15.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/16.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/17.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/18.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/19.png" class="swiper-lazy"/>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="/img/slider/20.png" class="swiper-lazy"/>
+                                    </div>
+                                </div>
+                                <div class="swiper-navigation">
+                                    <button id="swiperPrev" class="swiper-button">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17 4L17 6.94118L22 6.94117L9 16.5L22 26.0588L17 26.0588L17 29" stroke="#828282" stroke-width="1.8"/>
+                                        </svg>                                        
+                                    </button>
+                                    <button id="swiperNext" class="swiper-button">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 28L15 25.0588L10 25.0588L23 15.5L10 5.94118L15 5.94118L15 3" stroke="#828282" stroke-width="1.8"/>
+                                        </svg>                                        
+                                    </button>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>        
+                        </div>
+                    </div>
+                </div>
+                <div id="team" class="team">
+                    <div class="container">
+                        <h2 class="team__header">
+                            <img src="/img/global/title_decore.png" alt="img">
+                            <span>Наша команда</span>
+                        </h2>
+                        <div class="team__top">
+                            <div class="team__textbox">
+                                <h3 class="team__texbox-title">
+                                    Давайте знакомиться, мы сделали эту игру такой, какая она есть
+                                </h3>
+                                <p class="team__textbox-text">
+                                    Привет! Мы из <span class="orange">Украины</span>. Даже в такие трудные времена мы стараемся радовать наших игроков прекрасной игровой атмосферой.
+                                </p>
+                            </div>
+                            <div class="team__top-cards">
+                                <div class="team__card team-card team-card_top">
+                                    <div class="team-card__img">
+                                        <img src="/img/team/Alex.png" alt="Alex">
+                                    </div>
+                                    <div class="team-card__info">
+                                        <span class="team-card__name">
+                                            Александр
+                                        </span>
+                                        <span class="team-card__position">
+                                            Автор истории
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="team__card team-card team-card_top">
+                                    <div class="team-card__img">
+                                        <img src="/img/team/Vlad.png" alt="Vlad">
+                                    </div>
+                                    <div class="team-card__info">
+                                        <span class="team-card__name">
+                                            Владислав
+                                        </span>
+                                        <span class="team-card__position">
+                                            Менеджер проекта
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__cards">
+                            <div class="team__card team-card">
+                                <div class="team-card__img">
+                                    <img src="/img/team/Maximus.png" alt="Maximus">
+                                </div>
+                                <div class="team-card__info">
+                                    <span class="team-card__name">
+                                        максим
+                                    </span>
+                                    <span class="team-card__position">
+                                        дизайнер
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="team__card team-card">
+                                <div class="team-card__img">
+                                    <img src="/img/team/Lisa.png" alt="Maximus">
+                                </div>
+                                <div class="team-card__info">
+                                    <span class="team-card__name">
+                                        лиза
+                                    </span>
+                                    <span class="team-card__position">
+                                        2d илюстратор
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="team__card team-card">
+                                <div class="team-card__img">
+                                    <img src="/img/team/Dmitriy.png" alt="Maximus">
+                                </div>
+                                <div class="team-card__info">
+                                    <span class="team-card__name">
+                                        дмитрий
+                                    </span>
+                                    <span class="team-card__position">
+                                        unity разработчик
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="django">
+                    <div class="container">
+                        <div class="django__inner">
+                            <div class="django__textbox">
+                                <p class="django__text-top">
+                                    Djan<span class="red">g</span>o
+                                </p>
+                                <p class="django__text-bottom">
+                                    in search of truth
+                                </p>
+                            </div>
+                            <div class="django__links">
+                                <a href="#" class="django__link django__link_appstore">
+                                    <svg class="django__arrow-left" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                    </svg>
+                                    <img src="/img/icons/apple.png" alt="apple">
+                                    <div class="django__link-textbox">
+                                        <span class="django__texbox-top">
+                                            Download
+                                        </span>
+                                        <span class="django__texbox-bottom">
+                                            App Store
+                                        </span>
+                                    </div>
+                                    <svg class="django__arrow-right" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="django__link django__link_googleplay">
+                                    <svg class="django__arrow-left" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                    </svg>
+                                    <img src="/img/icons/google-play.png" alt="apple">
+                                    <div class="django__link-textbox">
+                                        <span class="django__texbox-top">
+                                            Download
+                                        </span>
+                                        <span class="django__texbox-bottom">
+                                            Google play
+                                        </span>
+                                    </div>
+                                    <svg class="django__arrow-right" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="django__hero" src="/img/django/django.png" alt="django">
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer__top-links top-links">
+                            <div class="top-links__left">
+                                <a href="https://www.youtube.com/channel/UCWntKrjdDZIekVckKiWiZPQ"  target="_blank" class="top-links__link">
+                                    youtube
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100087629769022" target="_blank" class="top-links__link">
+                                    facebook
+                                </a>
+                            </div>
+                            <div class="top-links__download">
+                                <div class="top-links__download-main">
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="white" stroke-width="1.8" />
+                                        <path d="M17 4.5V7.44118H22L9 17L22 26.5588H17V29.5" stroke="url(#paint0_linear_1_136)"
+                                            stroke-width="1.8" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_136" x1="15.5" y1="29.5" x2="4.75226" y2="23.3825"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#EA862E" />
+                                                <stop offset="1" stop-color="#FFB573" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    <span>Скачать</span>
+                                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5" stroke="white"
+                                            stroke-width="1.8" />
+                                        <path d="M15 28.5L15 25.5588L10 25.5588L23 16L10 6.44118L15 6.44118L15 3.5"
+                                            stroke="url(#paint0_linear_1_140)" stroke-width="1.8" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_1_140" x1="16.5" y1="3.5" x2="27.2477" y2="9.61751"
+                                                gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#EA862E" />
+                                                <stop offset="1" stop-color="#FFB573" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div class="top-links__open">
+                                    <div class="top-links__open-inner">
+                                        <ul class="top-links__download-list download-list">
+                                            <li class="download-list__item">
+                                                <a href="#" class="download-list__link">
+                                                    <img src="/img/icons/apple.png" alt="apple">
+                                                    <div class="download-list__link-textbox">
+                                                        <p class="download-list__texbox-top">
+                                                            Доступно в
+                                                        </p>
+                                                        <p class="download-list__texbox-bottom">
+                                                            App Store
+                                                        </s>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="download-list__item">
+                                                <a href="#" class="download-list__link">
+                                                    <img src="/img/icons/google-play.png" alt="apple">
+                                                    <div class="download-list__link-textbox">
+                                                        <p class="download-list__texbox-top">
+                                                            Доступно в
+                                                        </p>
+                                                        <p class="download-list__texbox-bottom">
+                                                            Google Play
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top-links__right">
+                                <a href="https://www.instagram.com/django_rodan/" target="_blank" class="top-links__link">
+                                    instagram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <p class="footer__copyrights">
+                            Права защищеены © DJANGO 2022
+                        </p>
+                        <div class="footer__bottom-links bottom-links">
+                            <a href="/privacy_policy.html" class="bottom-links__link">
+                                Политика конфиденциальности
+                            </a>
+                            <a href="mailto:hello@django.quest" class="bottom-links__link">
+                                hello@django.quest
+                            </a>
+                            <a href="/terms.html" class="bottom-links__link">
+                                Правила использования
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="modal-stories">
+            <div class="modal-stories__content">
+                <div class="modal-stories__top">
+                    <div class="modal-stories__date">
+                        1 ИЮН 2023
+                    </div>
+                    <div class="modal-stories__info">
+                        Истории мира Django
+                    </div>
+                </div>
+                <span class="modal-stories__close">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.146447 0.146447C0.341709 -0.0488155 0.658291 -0.0488155 0.853553 0.146447L10 9.29289L19.1464 0.146447C19.3417 -0.0488155 19.6583 -0.0488155 19.8536 0.146447C20.0488 0.341709 20.0488 0.658291 19.8536 0.853553L10.7071 10L19.8536 19.1464C20.0488 19.3417 20.0488 19.6583 19.8536 19.8536C19.6583 20.0488 19.3417 20.0488 19.1464 19.8536L10 10.7071L0.853553 19.8536C0.658291 20.0488 0.341709 20.0488 0.146447 19.8536C-0.0488155 19.6583 -0.0488155 19.3417 0.146447 19.1464L9.29289 10L0.146447 0.853553C-0.0488155 0.658291 -0.0488155 0.341709 0.146447 0.146447Z"
+                            fill="white" />
+                    </svg>
+                </span>
+                <div class="modal-stories__body">
+                    <div class="modal-stories__media">
+                        <img class="modal-stories__img" src="/img/review/plug.png" alt="img">
+                    </div>
+                    <div class="modal-stories__textbox">
+                        <h3 class="modal-stories__title">
+                            
+                        </h3>
+                        <p class="modal-stories__text">
+                           
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-news">
+            <div class="modal-news__content">
+                <div class="modal-news__top">
+                    <div class="modal-news__date">
+                        1 ИЮН 2023
+                    </div>
+                </div>
+                <span class="modal-news__close">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.146447 0.146447C0.341709 -0.0488155 0.658291 -0.0488155 0.853553 0.146447L10 9.29289L19.1464 0.146447C19.3417 -0.0488155 19.6583 -0.0488155 19.8536 0.146447C20.0488 0.341709 20.0488 0.658291 19.8536 0.853553L10.7071 10L19.8536 19.1464C20.0488 19.3417 20.0488 19.6583 19.8536 19.8536C19.6583 20.0488 19.3417 20.0488 19.1464 19.8536L10 10.7071L0.853553 19.8536C0.658291 20.0488 0.341709 20.0488 0.146447 19.8536C-0.0488155 19.6583 -0.0488155 19.3417 0.146447 19.1464L9.29289 10L0.146447 0.853553C-0.0488155 0.658291 -0.0488155 0.341709 0.146447 0.146447Z"
+                            fill="white" />
+                    </svg>
+                </span>
+                <div class="modal-news__body">
+                    <div class="modal-news__media">
+                        <img class="modal-news__img" src="/img/review/plug.png" alt="img">
+                    </div>
+                    <div class="modal-news__textbox">
+                        <h3 class="modal-news__title">
+                            
+                        </h3>
+                        <p class="modal-news__text">
+                           
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
+
+
+
